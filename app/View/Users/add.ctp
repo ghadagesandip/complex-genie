@@ -11,6 +11,9 @@
 		echo $this->Form->input('password');
 		echo $this->Form->input('confirm_password',array('type'=>'password'));
 		echo $this->Form->input('email_address');
+		$options = array('Male' => 'Male', 'Female' => 'Female');
+		$attributes = array('legend' => 'Gender');
+		echo $this->Form->radio('gender', $options, $attributes);
 		echo $this->Form->input('date_of_birth',array('label'=>'Date of Birth','class'=>'datepicker','type'=>'text'));
 		
 	?>
@@ -60,6 +63,8 @@
 	
 	    });
 
+	       
 });
+
 
 </script>

@@ -21,7 +21,7 @@
 $(document).ready(function(){
 		
 		$('.open-in-popup-div').click(function(){
-			
+		
 			var width  = '60%';
 			var height = '50%'; 
 			 

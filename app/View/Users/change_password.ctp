@@ -9,6 +9,9 @@
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>
 
+
+
+
 <script>
     $(document).ready(function(){
     	$('#UserChangePasswordForm').submit(function() {

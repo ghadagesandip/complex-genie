@@ -39,6 +39,9 @@
 	Router::connect('/my-profile', 		 array('controller' => 'Users', 'action' => 'myProfile'));
 	Router::connect('/change-password',  array('controller' => 'users', 'action' => 'changePassword'));
 	Router::connect('/register', 		 array('controller' => 'users', 'action' => 'register'));
+	Router::connect('/change-language/*',  array('controller' => 'users', 'action' => 'swapLanguage'));
+	
+	
 	
 	
 /**

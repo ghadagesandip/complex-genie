@@ -51,6 +51,9 @@
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
+			<div id="popup-div">
+				<?php echo $this->element('popup_div');?>
+			</div>
 		</div>
 		<div id="footer">
 			<?php echo $this->Html->link(

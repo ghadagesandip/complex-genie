@@ -15,12 +15,26 @@ class UsersController extends AppController {
 		   )
 	);
 	
+/**
+ * beforeFilter, its is controller filter method gets executed before any action is executed 
+ * @access public
+ * @author Sandip Ghadge
+ * @return void
+ *
+ */
 	public function beforeFilter(){
 		parent::beforeFilter();
-		 $this->Auth->allow(array('login','logout','register','initDB'));
+		 $this->Auth->allow(array('login','logout','register','initDB','swapLanguage','forgotPassword'));
 		 
 	}
 	
+/**
+ * login method
+ * @access public
+ * @author Sandip Ghadge
+ * @return void
+ *
+ */
 	public function login() {
 		$this->layout='login';
 	    if ($this->request->is('post')) {
@@ -32,11 +46,35 @@ class UsersController extends AppController {
 	    }
 	}
 	
+	
+	
+/**
+ * logout method
+ * @access public
+ * @author Sandip Ghadge
+ * @return void
+ *
+ */
 	public function logout() {
-	    $this->redirect($this->Auth->logout());
+	   $this->Session->destroy();
+	   $this->redirect($this->Auth->logout());
 	}
 	
-	
+
+/**
+ * swapLanguage method
+ * change language on click of language link
+ * @access public 
+ * @author Sandip Ghadge
+ * @return void
+ *
+ */	
+	public function swapLanguage(){
+		list($lan,$locale) = $this->request->params['pass'];
+		CakeSession::write('Config.language', $lan);
+    	setlocale("LC_ALL", $locale.".utf8");
+    	$this->redirect($this->referer());
+	}	
 /**
  * index method
  *
@@ -59,6 +97,7 @@ class UsersController extends AppController {
 		$options = array('conditions' => array('User.' . $this->User->primaryKey => AuthComponent::user('id')));
 		$this->set('user', $this->User->find('first', $options));
 	}
+	
 	
 	
 /**
@@ -226,7 +265,23 @@ class UsersController extends AppController {
 		
 	}
 	
-	
+	public function forgotPassword(){
+		$this->layout= 'ajax';
+		$result = array();
+		if($this->request->is('post')) {
+			$C_username = $this->request->data['User']['username'];
+			$user = $this->User->findByUsername($C_username);
+			if(count($user)==0){
+				$result['fail'] = 'invalid username, try again';
+			}else{
+				//$this->__sendPasswordRecoveryEmail();
+				$result['success'] = 'password recovery link send to your registered email address';
+			}
+			echo json_encode($result);exit;
+		}
+		
+		
+	}
 	
 	public function changeProfilePicture(){
 		$this->layout= 'ajax';

@@ -1,0 +1,680 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-06-14 13:12+0530\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: /Controller/ProfilePicturesController.php:39;81
+msgid "Invalid profile picture"
+msgstr ""
+
+#: /Controller/ProfilePicturesController.php:58
+msgid "The profile picture has been saved"
+msgstr ""
+
+#: /Controller/ProfilePicturesController.php:64
+msgid "The profile picture could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/ProfilePicturesController.php:89
+msgid "Profile picture deleted"
+msgstr ""
+
+#: /Controller/ProfilePicturesController.php:92
+msgid "Profile picture was not deleted"
+msgstr ""
+
+#: /Controller/RolesController.php:34;66;91
+msgid "Invalid role"
+msgstr ""
+
+#: /Controller/RolesController.php:49;70
+msgid "The role has been saved"
+msgstr ""
+
+#: /Controller/RolesController.php:52;73
+msgid "The role could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/RolesController.php:95
+msgid "Role deleted"
+msgstr ""
+
+#: /Controller/RolesController.php:98
+msgid "Role was not deleted"
+msgstr ""
+
+#: /Controller/UsersController.php:44
+msgid "Invalid username or password, try again"
+msgstr ""
+
+#: /Controller/UsersController.php:96;159;186
+msgid "Invalid user"
+msgstr ""
+
+#: /Controller/UsersController.php:111;163
+msgid "The user has been saved"
+msgstr ""
+
+#: /Controller/UsersController.php:114;142;166
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/UsersController.php:139
+msgid "You are registered successfully"
+msgstr ""
+
+#: /Controller/UsersController.php:190
+msgid "User deleted"
+msgstr ""
+
+#: /Controller/UsersController.php:193
+msgid "User was not deleted"
+msgstr ""
+
+#: /Plugin/AclExtras/Console/Command/AclExtrasShell.php:80
+msgid "Plugin to process"
+msgstr ""
+
+#: /Plugin/AclExtras/Console/Command/AclExtrasShell.php:83
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr ""
+
+#: /Plugin/AclExtras/Console/Command/AclExtrasShell.php:88
+msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
+msgstr ""
+
+#: /Plugin/AclExtras/Console/Command/AclExtrasShell.php:93
+msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+msgstr ""
+
+#: /Plugin/AclExtras/Console/Command/AclExtrasShell.php:97
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr ""
+
+#: /Plugin/AclExtras/Console/Command/AclExtrasShell.php:102
+msgid "The type of tree to verify"
+msgstr ""
+
+#: /Plugin/AclExtras/Console/Command/AclExtrasShell.php:108
+msgid "Recover a corrupted Tree"
+msgstr ""
+
+#: /Plugin/AclExtras/Console/Command/AclExtrasShell.php:113
+msgid "The type of tree to recover"
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:123
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:136
+msgid "<success>Aco Update Complete</success>"
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:181
+msgid "Deleted %s and all children"
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:222
+msgid "Created Aco node: <success>%s</success>"
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:272
+msgid "Unable to get methods for \"%s\""
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:293
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:312
+msgid "<success>Tree is valid and strong</success>"
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:330
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr ""
+
+#: /Plugin/AclExtras/Lib/AclExtras.php:332
+msgid "<error>Tree recovery failed.</error>"
+msgstr ""
+
+#: /View/ProfilePictures/add.ctp:4
+msgid "Add Profile Picture"
+msgstr ""
+
+#: /View/ProfilePictures/add.ctp:9
+#: /View/ProfilePictures/edit.ctp:11
+#: /View/Roles/add.ctp:9
+#: /View/Roles/edit.ctp:10
+#: /View/Users/add.ctp:18
+#: /View/Users/change_password.ctp:10
+#: /View/Users/edit.ctp:20
+#: /View/Users/register.ctp:18
+msgid "Submit"
+msgstr ""
+
+#: /View/ProfilePictures/add.ctp:12
+#: /View/ProfilePictures/edit.ctp:14
+#: /View/ProfilePictures/index.ctp:9;38
+#: /View/ProfilePictures/view.ctp:32;60
+#: /View/Roles/add.ctp:12
+#: /View/Roles/edit.ctp:13
+#: /View/Roles/index.ctp:12;45
+#: /View/Roles/view.ctp:27;52
+#: /View/Users/add.ctp:21
+#: /View/Users/edit.ctp:23
+#: /View/Users/index.ctp:21;67
+#: /View/Users/my_profile.ctp:70
+#: /View/Users/view.ctp:69
+msgid "Actions"
+msgstr ""
+
+#: /View/ProfilePictures/add.ctp:15
+#: /View/ProfilePictures/edit.ctp:18
+#: /View/ProfilePictures/view.ctp:36
+msgid "List Profile Pictures"
+msgstr ""
+
+#: /View/ProfilePictures/add.ctp:16
+#: /View/ProfilePictures/edit.ctp:19
+#: /View/ProfilePictures/index.ctp:41
+#: /View/ProfilePictures/view.ctp:38
+#: /View/Roles/add.ctp:16
+#: /View/Roles/edit.ctp:18
+#: /View/Roles/index.ctp:48
+#: /View/Roles/view.ctp:33
+#: /View/Users/add.ctp:24
+#: /View/Users/edit.ctp:27
+#: /View/Users/view.ctp:73
+msgid "List Users"
+msgstr ""
+
+#: /View/ProfilePictures/add.ctp:17
+#: /View/ProfilePictures/edit.ctp:20
+#: /View/ProfilePictures/index.ctp:42
+#: /View/ProfilePictures/view.ctp:39;91
+#: /View/Roles/add.ctp:17
+#: /View/Roles/edit.ctp:19
+#: /View/Roles/index.ctp:49
+#: /View/Roles/view.ctp:34;79
+#: /View/Users/index.ctp:69
+#: /View/Users/view.ctp:74
+msgid "New User"
+msgstr ""
+
+#: /View/ProfilePictures/edit.ctp:4
+#: /View/ProfilePictures/view.ctp:34
+msgid "Edit Profile Picture"
+msgstr ""
+
+#: /View/ProfilePictures/edit.ctp:17
+#: /View/ProfilePictures/index.ctp:18
+#: /View/ProfilePictures/view.ctp:82
+#: /View/Roles/edit.ctp:16
+#: /View/Roles/index.ctp:24
+#: /View/Roles/view.ctp:70
+#: /View/Users/edit.ctp:26
+#: /View/Users/index.ctp:46
+msgid "Delete"
+msgstr ""
+
+#: /View/ProfilePictures/edit.ctp:17
+#: /View/ProfilePictures/index.ctp:18
+#: /View/ProfilePictures/view.ctp:35;82
+#: /View/Roles/edit.ctp:16
+#: /View/Roles/index.ctp:24
+#: /View/Roles/view.ctp:30;70
+#: /View/Users/edit.ctp:26
+#: /View/Users/index.ctp:46
+#: /View/Users/view.ctp:72
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: /View/ProfilePictures/index.ctp:2
+msgid "Profile Pictures"
+msgstr ""
+
+#: /View/ProfilePictures/index.ctp:26
+#: /View/Roles/index.ctp:33
+#: /View/Users/index.ctp:55
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: /View/ProfilePictures/index.ctp:31
+#: /View/Roles/index.ctp:38
+#: /View/Users/index.ctp:60
+msgid "previous"
+msgstr ""
+
+#: /View/ProfilePictures/index.ctp:33
+#: /View/Roles/index.ctp:40
+#: /View/Users/index.ctp:62
+msgid "next"
+msgstr ""
+
+#: /View/ProfilePictures/index.ctp:40
+#: /View/ProfilePictures/view.ctp:37
+msgid "New Profile Picture"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:2;14
+msgid "Profile Picture"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:4;47
+#: /View/Roles/view.ctp:4;42
+#: /View/Users/my_profile.ctp:21
+#: /View/Users/view.ctp:20
+msgid "Id"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:9
+#: /View/Users/view.ctp:2
+msgid "User"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:19;58
+#: /View/Roles/view.ctp:14
+#: /View/Users/my_profile.ctp:57
+#: /View/Users/view.ctp:56
+msgid "Created"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:24;59
+#: /View/Roles/view.ctp:19
+#: /View/Users/my_profile.ctp:62
+#: /View/Users/view.ctp:61
+msgid "Modified"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:35
+msgid "Delete Profile Picture"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:43
+#: /View/Roles/view.ctp:38
+msgid "Related Users"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:48
+msgid "Is Active"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:49
+msgid "Role Id"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:50
+#: /View/Roles/view.ctp:44
+#: /View/Users/my_profile.ctp:31
+#: /View/Users/view.ctp:30
+msgid "First Name"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:51
+#: /View/Roles/view.ctp:45
+#: /View/Users/my_profile.ctp:36
+#: /View/Users/view.ctp:35
+msgid "Last Name"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:52
+#: /View/Roles/view.ctp:46
+#: /View/Users/my_profile.ctp:41
+#: /View/Users/view.ctp:40
+msgid "Username"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:53
+msgid "Gender"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:54
+msgid "Password"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:55
+#: /View/Roles/view.ctp:48
+#: /View/Users/my_profile.ctp:46
+#: /View/Users/view.ctp:45
+msgid "Email Address"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:56
+#: /View/Roles/view.ctp:49
+#: /View/Users/my_profile.ctp:51
+#: /View/Users/view.ctp:50
+msgid "Date Of Birth"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:57
+msgid "Profile Picture Id"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:80
+#: /View/Roles/index.ctp:22
+#: /View/Roles/view.ctp:68
+#: /View/Users/index.ctp:44
+msgid "View"
+msgstr ""
+
+#: /View/ProfilePictures/view.ctp:81
+#: /View/Roles/index.ctp:23
+#: /View/Roles/view.ctp:69
+#: /View/Users/index.ctp:45
+msgid "Edit"
+msgstr ""
+
+#: /View/Roles/add.ctp:4
+msgid "Add Role"
+msgstr ""
+
+#: /View/Roles/add.ctp:15
+#: /View/Roles/edit.ctp:17
+#: /View/Roles/view.ctp:31
+#: /View/Users/add.ctp:25
+#: /View/Users/edit.ctp:28
+#: /View/Users/index.ctp:70
+#: /View/Users/view.ctp:75
+msgid "List Roles"
+msgstr ""
+
+#: /View/Roles/edit.ctp:4
+#: /View/Roles/view.ctp:29
+msgid "Edit Role"
+msgstr ""
+
+#: /View/Roles/index.ctp:2
+msgid "Roles"
+msgstr ""
+
+#: /View/Roles/index.ctp:47
+#: /View/Roles/view.ctp:32
+#: /View/Users/add.ctp:26
+#: /View/Users/edit.ctp:29
+#: /View/Users/index.ctp:71
+#: /View/Users/view.ctp:76
+msgid "New Role"
+msgstr ""
+
+#: /View/Roles/view.ctp:2;9
+#: /View/Users/my_profile.ctp:26
+#: /View/Users/view.ctp:25
+msgid "Role"
+msgstr ""
+
+#: /View/Roles/view.ctp:30
+msgid "Delete Role"
+msgstr ""
+
+#: /View/Users/add.ctp:4
+#: /View/Users/register.ctp:4
+msgid "Add User"
+msgstr ""
+
+#: /View/Users/change_password.ctp:3
+msgid "Change Password"
+msgstr ""
+
+#: /View/Users/edit.ctp:4
+#: /View/Users/view.ctp:71
+msgid "Edit User"
+msgstr ""
+
+#: /View/Users/index.ctp:3
+msgid "Users"
+msgstr ""
+
+#: /View/Users/login.ctp:5
+msgid "Please enter your username and password"
+msgstr ""
+
+#: /View/Users/login.ctp:12
+msgid "Login"
+msgstr ""
+
+#: /View/Users/my_profile.ctp:3
+msgid "My Profile"
+msgstr ""
+
+#: /View/Users/my_profile.ctp:72
+msgid "Update Profile"
+msgstr ""
+
+#: /View/Users/view.ctp:72
+msgid "Delete User"
+msgstr ""
+
+#: /View/Errors/error400.ctp:22
+#: /View/Errors/error500.ctp:22
+msgid "Error"
+msgstr ""
+
+#: /View/Errors/error400.ctp:24
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: /View/Errors/error500.ctp:23
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: /View/Layouts/error.ctp:20
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: /View/Pages/home.ctp:25
+msgid "Release Notes for CakePHP %s."
+msgstr ""
+
+#: /View/Pages/home.ctp:27
+msgid "Read the changelog"
+msgstr ""
+
+#: /View/Pages/home.ctp:35
+msgid "URL rewriting is not properly configured on your server."
+msgstr ""
+
+#: /View/Pages/home.ctp:43
+msgid "Your version of PHP is 5.2.8 or higher."
+msgstr ""
+
+#: /View/Pages/home.ctp:47
+msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
+msgstr ""
+
+#: /View/Pages/home.ctp:56
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: /View/Pages/home.ctp:60
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: /View/Pages/home.ctp:70
+msgid "The %s is being used for core caching. To change the config edit APP/Config/core.php "
+msgstr ""
+
+#: /View/Pages/home.ctp:74
+msgid "Your cache is NOT working. Please check the settings in APP/Config/core.php"
+msgstr ""
+
+#: /View/Pages/home.ctp:84
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: /View/Pages/home.ctp:89
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: /View/Pages/home.ctp:91
+msgid "Rename APP/Config/database.php.default to APP/Config/database.php"
+msgstr ""
+
+#: /View/Pages/home.ctp:116
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: /View/Pages/home.ctp:120
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: /View/Pages/home.ctp:132
+msgid "PCRE has not been compiled with Unicode support."
+msgstr ""
+
+#: /View/Pages/home.ctp:134
+msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
+msgstr ""
+
+#: /View/Pages/home.ctp:143
+msgid "DebugKit plugin is present"
+msgstr ""
+
+#: /View/Pages/home.ctp:147
+msgid "DebugKit is not installed. It will help you inspect and debug different aspects of your application."
+msgstr ""
+
+#: /View/Pages/home.ctp:149
+msgid "You can install it from %s"
+msgstr ""
+
+#: /View/Pages/home.ctp:155
+msgid "Editing this Page"
+msgstr ""
+
+#: /View/Pages/home.ctp:158
+msgid "To change the content of this page, edit: APP/View/Pages/home.ctp.<br />\nTo change its layout, edit: APP/View/Layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
+msgstr ""
+
+#: /View/Pages/home.ctp:164
+msgid "Getting Started"
+msgstr ""
+
+#: /View/Pages/home.ctp:168
+msgid "New"
+msgstr ""
+
+#: /View/Pages/home.ctp:168
+msgid "CakePHP 2.0 Docs"
+msgstr ""
+
+#: /View/Pages/home.ctp:177
+msgid "The 15 min Blog Tutorial"
+msgstr ""
+
+#: /View/Pages/home.ctp:184
+msgid "Official Plugins"
+msgstr ""
+
+#: /View/Pages/home.ctp:189
+msgid "provides a debugging toolbar and enhanced debugging tools for CakePHP applications."
+msgstr ""
+
+#: /View/Pages/home.ctp:193
+msgid "contains various localized validation classes and translations for specific countries"
+msgstr ""
+
+#: /View/Pages/home.ctp:198
+msgid "More about Cake"
+msgstr ""
+
+#: /View/Pages/home.ctp:200
+msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
+msgstr ""
+
+#: /View/Pages/home.ctp:203
+msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
+msgstr ""
+
+#: /View/Pages/home.ctp:207
+msgid "Cake Software Foundation"
+msgstr ""
+
+#: /View/Pages/home.ctp:208
+msgid "Promoting development related to CakePHP"
+msgstr ""
+
+#: /View/Pages/home.ctp:209
+msgid "CakePHP"
+msgstr ""
+
+#: /View/Pages/home.ctp:210
+msgid "The Rapid Development Framework"
+msgstr ""
+
+#: /View/Pages/home.ctp:211
+msgid "CakePHP Documentation"
+msgstr ""
+
+#: /View/Pages/home.ctp:212
+msgid "Your Rapid Development Cookbook"
+msgstr ""
+
+#: /View/Pages/home.ctp:213
+msgid "CakePHP API"
+msgstr ""
+
+#: /View/Pages/home.ctp:214
+msgid "Quick Reference"
+msgstr ""
+
+#: /View/Pages/home.ctp:215
+msgid "The Bakery"
+msgstr ""
+
+#: /View/Pages/home.ctp:216
+msgid "Everything CakePHP"
+msgstr ""
+
+#: /View/Pages/home.ctp:217
+msgid "CakePHP plugins repo"
+msgstr ""
+
+#: /View/Pages/home.ctp:218
+msgid "A comprehensive list of all CakePHP plugins created by the community"
+msgstr ""
+
+#: /View/Pages/home.ctp:219
+msgid "CakePHP Google Group"
+msgstr ""
+
+#: /View/Pages/home.ctp:220
+msgid "Community mailing list"
+msgstr ""
+
+#: /View/Pages/home.ctp:222
+msgid "Live chat about CakePHP"
+msgstr ""
+
+#: /View/Pages/home.ctp:223
+msgid "CakePHP Code"
+msgstr ""
+
+#: /View/Pages/home.ctp:224
+msgid "For the Development of CakePHP Git repository, Downloads"
+msgstr ""
+
+#: /View/Pages/home.ctp:225
+msgid "CakePHP Lighthouse"
+msgstr ""
+
+#: /View/Pages/home.ctp:226
+msgid "CakePHP Tickets, Wiki pages, Roadmap"
+msgstr ""
+
+#: /webroot/test.php:95
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+

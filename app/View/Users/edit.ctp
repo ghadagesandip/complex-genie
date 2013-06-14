@@ -14,7 +14,7 @@
 		echo "<div id ='username_feedback'></div>";
 		echo $this->Form->input('email_address');
 		echo $this->Form->input('date_of_birth',array('label'=>'Date of Birth','class'=>'datepicker','type'=>'text'));
-		
+		echo $this->Form->input('hobbies',array('type'=>'checkbox'));
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

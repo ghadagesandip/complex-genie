@@ -9,8 +9,10 @@
 				  	}
 				  }		
 			?>
-
-			<?php echo $this->Html->link('Hi '.AuthComponent::user('name'),'/my-profile');?>
-		</h1>	
+			<?php echo $this->Html->link('Hi '.AuthComponent::user('name').', '.ucfirst(AuthComponent::user('Role.role')),'/my-profile');?>
+		</h1>
+		
+		<?php echo $this->Html->link('English','/change-language/eng/en_EN');?>
+		<?php echo $this->Html->link('Marathi','/change-language/mar/mr_MR');?>
 		<?php echo $this->Html->link('Logout','/logout',array('class'=>'logout'));?>
 		<?php echo $this->Html->link('Dashboard','/dashboard',array('class'=>'dashboard'));?>

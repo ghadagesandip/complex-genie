@@ -50,6 +50,7 @@
 			<?php echo $this->fetch('content'); ?>
 			<div id="popup-div">
 				<?php echo $this->element('popup_div');?>
+				<?php echo $this->element('ajax_validate');?>
 			</div>
 		</div>
 		<div id="footer">

@@ -2,13 +2,14 @@
 				<?php echo $this->Form->input('action.type', array(
 					'between' => '<span class="select-wrapper">',
 					'after' => '</span>',
-					'empty' => 'Bulk Actions',
+					'empty' => __('Bulk Actions'),
 					'div' => false,
-					'label' => 'Perform the action with selected',
+					'label' => __('Please select and perform action'),
 					'options' => array(
-						'active' => 'Active',
-						'in-active' => 'In-active',
-						'delete' => 'Delete')
+						'active' => __('Active'),
+						'in-active' => __('In-active'),
+						'delete' => __('Delete')
+					)
 				)); ?>
-				<?php echo $this->Form->button('Go', array('class' => 'button')); ?>
+				<?php echo $this->Form->button(__('Go'), array('class' => 'button')); ?>
 			</fieldset>

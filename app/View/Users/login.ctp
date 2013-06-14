@@ -6,8 +6,17 @@
         <?php 
         echo $this->Form->input('username');
         echo $this->Form->input('password');
-        echo $this->Html->link('Register',array('action'=>'register'));
+            
     ?>
+    
     </fieldset>
 <?php echo $this->Form->end(__('Login')); ?>
+</div>
+
+<div class="actions">
+	<ul>
+		<li> <?php echo $this->Html->link('Register','/register', array('class'=>'button')); ?> </li>
+		<li> <?php echo $this->Html->tag('span','Forgot Password?',array('class'=>'button open-in-popup-div','href'=>$this->Html->url(array('action'=>'forgotPassword')))); ?></li>
+	</ul>
+
 </div>

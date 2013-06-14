@@ -70,8 +70,8 @@
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('Update Profile'), array('action' => 'edit', $user['User']['id'])); ?> </li>
-		<li><span href="<?php echo $this->Html->url(array('action'=>'changePassword'))?>" class="open-in-popup-div" >Change Password</span></li>
-		<li><span href="<?php echo $this->Html->url(array('action'=>'changeProfilePicture'))?>" class="open-in-popup-div " width='85%' height='55%'>Change Profile Picture</span></li>
+		<li><span href="<?php echo $this->Html->url(array('action'=>'changePassword'))?>" class="button open-in-popup-div" >Change Password</span></li>
+		<li><span href="<?php echo $this->Html->url(array('action'=>'changeProfilePicture'))?>" class="button open-in-popup-div" width='85%' height='55%'>Change Profile Picture</span></li>
 	</ul>
 </div>
 

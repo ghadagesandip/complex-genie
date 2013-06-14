@@ -62,7 +62,7 @@ class AppController extends Controller {
     );
     
     public function beforeFilter(){
-    	
+    	$this->Auth->allow('ajaxValidate');   	
     	if (!empty($this->request->data['action']['type'])) {
     		
 			switch ($this->request->data['action']['type']) {
@@ -93,13 +93,20 @@ class AppController extends Controller {
 			}
 		}
 		
-		
-		
-		
 	}
         
     
-	
+	function ajaxValidate(){
+		 $arr = array_keys($this->data[$this->modelClass]);
+		 $field = $arr[0]; 
+		
+		 $this->{$this->modelClass}->set($this->request->data); 
+		 if(!$this->{$this->modelClass}->validates(array('fieldList'=>array($field)))){
+			$C_validaton_errors = $this->{$this->modelClass}->validationErrors;
+		 }
+		$C_validaton_errors['field'] = $field;
+		echo json_encode($C_validaton_errors); exit;
+	}	
     
     
 }

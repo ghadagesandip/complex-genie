@@ -130,7 +130,7 @@ class User extends AppModel {
 			),
 			'email'=>array(
 				'rule'=>'email',
-				'message'=>'please enter email address'
+				'message'=>'please enter valid email address'
 			),
 			'isUnique'=>array(
                        'rule'=>array('isUnique'),
@@ -146,7 +146,7 @@ class User extends AppModel {
 		'date_of_birth' => array(
 			'date' => array(
 				'rule' => array('date'),
-				//'message' => 'Your custom message here',
+				'message' => 'please enter date',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule

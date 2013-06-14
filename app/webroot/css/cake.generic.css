@@ -30,18 +30,14 @@ body {
 	font-size:90%;
 	margin: 0;
 }
-a {
-	color: #003d4c;
-	text-decoration: underline;
-	font-weight: bold;
-}
-a:hover {
-	color: #367889;
-	text-decoration:none;
-}
-a img {
-	border:none;
-}
+
+a { color: #003d4c; text-decoration: underline; font-weight: bold;}
+a:hover {color: #367889; text-decoration:none;}
+a img {border:none;}
+
+span.button{background: none repeat scroll 0 0 royalblue; color: white; opacity:0.90; font-weight: bold;  margin: 6px;  padding: 3px 15px; text-decoration: none;} 
+span.button:hover {color: white; text-decoration:none;opacity:1;}
+
 h1, h2, h3, h4 {
 	font-weight: normal;
 	margin-bottom:0.5em;
