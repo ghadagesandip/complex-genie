@@ -108,4 +108,8 @@ CakeLog::config('error', array(
 	'file' => 'error',
 ));
 
+
+Configure::write('FROM_EMAIL_ADDRESS','sandip.ghadge@wwindia.com');
+Configure::write('FROM_EMAIL_TEXT','Complex Genie');
+
 CakePlugin::load('AclExtras');

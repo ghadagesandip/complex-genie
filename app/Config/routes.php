@@ -32,13 +32,13 @@
  */
 	//Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
-	Router::connect('/', 				 array('controller' => 'users', 'action' => 'login'));
-	Router::connect('/dashboard', 		 array('controller' => 'dashboards', 'action' => 'index'));
-	Router::connect('/login', 			 array('controller' => 'users', 'action' => 'login'));
-	Router::connect('/logout', 			 array('controller' => 'users', 'action' => 'logout'));
-	Router::connect('/my-profile', 		 array('controller' => 'Users', 'action' => 'myProfile'));
-	Router::connect('/change-password',  array('controller' => 'users', 'action' => 'changePassword'));
-	Router::connect('/register', 		 array('controller' => 'users', 'action' => 'register'));
+	Router::connect('/', 				   array('controller' => 'users', 'action' => 'login'));
+	Router::connect('/dashboard', 		   array('controller' => 'dashboards', 'action' => 'index'));
+	Router::connect('/login', 			   array('controller' => 'users', 'action' => 'login'));
+	Router::connect('/logout', 			   array('controller' => 'users', 'action' => 'logout'));
+	Router::connect('/my-profile', 		   array('controller' => 'Users', 'action' => 'myProfile'));
+	Router::connect('/change-password',    array('controller' => 'users', 'action' => 'changePassword'));
+	Router::connect('/register', 		   array('controller' => 'users', 'action' => 'register'));
 	Router::connect('/change-language/*',  array('controller' => 'users', 'action' => 'swapLanguage'));
 	
 	

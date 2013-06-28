@@ -23,7 +23,7 @@
 			
 			<?php foreach ($users as $idx=>$user): ?>
 				<tr>
-					<td class="checkbox"><input type="checkbox" class="check-all" name="data[User][<?php echo $idx?>][id]" value="<?php echo $user['User']['id']?>"></td>
+					<td><input type="checkbox" class="check-all" name="data[User][<?php echo $idx?>][id]" value="<?php echo $user['User']['id']?>"></td>
 					<td><?php echo h($user['User']['id']); ?>&nbsp;</td>
 					<td><?php // echo $this->Html->image('/files/profile_image/thumb/small/'.$user['User']['pic']); ?>&nbsp;</td>
 					<td><?php 
@@ -41,9 +41,10 @@
 					<td><?php echo h($user['User']['username']); ?>&nbsp;</td>
 					<td><?php echo h($user['User']['email_address']); ?>&nbsp;</td>
 					<td class="actions">
+						<span href="<?php echo $this->Html->url(array('action'=>'changePasswordAdmin',$user['User']['id']))?>" width='85%' height='65%' class="button open-in-popup-div" >Change Password</span>
 						<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id'])); ?>
 						<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['id'])); ?>
-						<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $user['User']['id']), null, __('Are you sure you want to delete # %s?', $user['User']['id'])); ?>
+						<?php if(AuthComponent::user('id')!=$user['User']['id']){ echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $user['User']['id']), null, __('Are you sure you want to delete # %s?', $user['User']['id']));}else{"";} ?>
 					</td>
 				</tr>
 		<?php endforeach; ?>

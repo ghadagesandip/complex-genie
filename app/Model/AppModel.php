@@ -37,7 +37,7 @@ class AppModel extends Model {
 	
 	public function beforeValidate($options = array()){
 		//for updated id field will be set
-		if(isset($_SESSION)){
+		if(isset($_SESSION['Auth'])){
 			if(isset($this->data[$this->name]['id'])){
 			  $this->data[$this->name]['updated_by'] = $_SESSION['Auth']['User']['id'];	
 			}else{

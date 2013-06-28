@@ -1,4 +1,5 @@
 <?php
+App::uses('CakeEmail', 'Network/Email');
 App::uses('AppController', 'Controller');
 /**
  * Users Controller
@@ -24,9 +25,49 @@ class UsersController extends AppController {
  */
 	public function beforeFilter(){
 		parent::beforeFilter();
-		 $this->Auth->allow(array('login','logout','register','initDB','swapLanguage','forgotPassword'));
-		 
+		 $this->Auth->allow(array('login','logout','register','initDB','swapLanguage','forgotPassword','securityCheck','changePassword','resetPassword'));
 	}
+	
+/**
+ * initDB method
+ * updates aco_aro tables and set roles based access to resources
+ * @access public
+ * @author Sandip Ghadge
+ * @return void
+ */
+	public function initDB() {
+	    $group = $this->User->Role;
+	    //Allow admins to everything
+	    $group->id = 1;
+	    $this->Acl->allow($group, 'controllers');
+	
+	    //allow managers to posts and widgets
+	    $group->id = 2;
+	    $this->Acl->deny($group, 'controllers');
+	    $this->Acl->allow($group, 'controllers/Dashboards/index');
+	    $this->Acl->allow($group, 'controllers/Roles/index');
+	    $this->Acl->allow($group, 'controllers/Users/index');
+	    $this->Acl->allow($group, 'controllers/Users/changePassword');
+	    $this->Acl->allow($group, 'controllers/Users/checkUsername');
+	    $this->Acl->allow($group, 'controllers/Users/myProfile');
+	    $this->Acl->allow($group, 'controllers/ProfilePictures/index');
+	
+	    //allow users to only add and edit on posts and widgets
+	    $group->id = 3;
+	    $this->Acl->deny($group, 'controllers');
+	    $this->Acl->allow($group, 'controllers/Dashboards/index');
+	    $this->Acl->allow($group, 'controllers/Roles/index');
+	    $this->Acl->allow($group, 'controllers/Roles/view');
+	    $this->Acl->allow($group, 'controllers/Users/index');
+	    $this->Acl->allow($group, 'controllers/Users/changePassword');
+	    $this->Acl->allow($group, 'controllers/Users/checkUsername');
+	    $this->Acl->allow($group, 'controllers/Users/myProfile');
+	    $this->Acl->allow($group, 'controllers/ProfilePictures/index');
+	    //we add an exit to avoid an ugly "missing views" error message
+	    echo "all done";
+	    exit;
+	}
+	
 	
 /**
  * login method
@@ -94,7 +135,10 @@ class UsersController extends AppController {
  * @return void
  */
 	public function myProfile() {
-		$options = array('conditions' => array('User.' . $this->User->primaryKey => AuthComponent::user('id')));
+		$options = array(
+			'conditions' => array('User.' . $this->User->primaryKey => AuthComponent::user('id')),
+			
+		);
 		$this->set('user', $this->User->find('first', $options));
 	}
 	
@@ -272,9 +316,12 @@ class UsersController extends AppController {
 			$C_username = $this->request->data['User']['username'];
 			$user = $this->User->findByUsername($C_username);
 			if(count($user)==0){
-				$result['fail'] = 'invalid username, try again';
+				$result['fail'] = 'no user account found with this email address';
 			}else{
-				//$this->__sendPasswordRecoveryEmail();
+				$temporary_password = substr(md5(microtime()), -15, 12);
+				$this->User->id = $user['User']['id'];
+				$this->User->saveField('temporary_password', $temporary_password);
+				$this->_sendPasswordRecoveryEmail($user,$temporary_password);
 				$result['success'] = 'password recovery link send to your registered email address';
 			}
 			echo json_encode($result);exit;
@@ -283,8 +330,101 @@ class UsersController extends AppController {
 		
 	}
 	
-	public function changeProfilePicture(){
+	/**_sendPasswordRecoveryEmail method, 
+	 * Function send the password recovery email to user
+	 * @access public
+	 * @author sandip ghadge	
+	 * @param array $user_data
+	 * @param string $temporary_password
+	 */
+	public  function _sendPasswordRecoveryEmail($user_data,$temporary_password){
+			    $email = new CakeEmail();
+                $email->config('gmail');
+				//$email->reset();
+                $email->template('password_recovery_email', 'default');
+				$email->emailFormat('html');
+				$email->viewVars(array(
+                                   'temporary_password'=>$temporary_password,
+                                   'user_data'=>$user_data
+                                ));
+				
+				$from = Configure::read('FROM_EMAIL_ADDRESS');		
+				$from_text = Configure::read('FROM_EMAIL_TEXT');
+                $email->from(array($from => $from_text));
+                $email->to($user_data['User']['email_address']);
+                $email->subject('password recovery email');
+                $result=$email->send();
+	}
+	
+	public function securityCheck(){
 		$this->layout= 'ajax';
+		$result = array();
+		if($this->request->is('post')) {
+			$temporary_password = $this->request->data['User']['temporary_password']; 
+			$user = $this->User->findByTemporaryPassword($temporary_password);
+			if(count($user)==0){
+				$result['fail'] = 'verification_fail';
+			}else{
+			//	$this->Auth->login($user);
+				$this->Session->write('security_code',$temporary_password);
+				$result['success'] = 'verified';
+			}
+			echo json_encode($result);exit;
+		}
+	}
+	
+   public function resetPassword(){
+   	  $this->layout= 'ajax';
+   	  $C_validaton_errors=array();
+		if($this->request->is('post')){
+				$this->User->set($this->request->data);    
+				if($this->User->validates(array('fieldList'=>array('password','confirm_password')))){
+					$user = $this->User->findByTemporaryPassword($this->Session->read('security_code'));
+					$this->User->id = $user['User']['id'];
+					if ($this->User->saveField('password',$this->data['User']['password'])) {
+						$C_validaton_errors['no_error'] = "Password updated successfully";
+					}
+				}else{
+					$C_validaton_errors = $this->User->validationErrors;
+					
+				}
+			
+			echo json_encode($C_validaton_errors); exit;
+		}
+		
+   }
+	
+   public function changePasswordAdmin($user_id){
+   	    $this->layout= 'ajax';
+   	    if($this->request->is('post')){
+				$this->User->set($this->request->data);    
+				if($this->User->validates(array('fieldList'=>array('password','confirm_password')))){
+					$this->User->id = $this->request->data['User']['id'];
+					if ($this->User->saveField('password',$this->data['User']['password'])) {
+						$C_validaton_errors['no_error'] = "Password updated successfully";
+					}
+				}else{
+					$C_validaton_errors = $this->User->validationErrors;
+					
+				}
+			
+			echo json_encode($C_validaton_errors); exit;
+		}
+   	    $this->set('id',$user_id);
+   }
+   
+   public function changeProfilePicture(){
+		$this->layout= 'ajax';
+		$C_validaton_errors = array();
+		if($this->request->is('post')){
+			$this->User->id = AuthComponent::user('id');
+			if ($this->User->saveField('profile_picture_id',$this->data['profile_picture_id'])) {
+				$C_validaton_errors['status'] = 'success';
+			}else{
+				$C_validaton_errors['status'] = 'fail';
+			}
+			echo json_encode($C_validaton_errors); exit;
+		}
 		
     	$this->paginate = array(
 	        'ProfilePicture' => array(
@@ -297,37 +437,6 @@ class UsersController extends AppController {
 	}
 	
 	
-	public function initDB() {
-	    $group = $this->User->Role;
-	    //Allow admins to everything
-	    $group->id = 1;
-	    $this->Acl->allow($group, 'controllers');
 	
-	    //allow managers to posts and widgets
-	    $group->id = 2;
-	    $this->Acl->deny($group, 'controllers');
-	    $this->Acl->allow($group, 'controllers/Dashboards/index');
-	    $this->Acl->allow($group, 'controllers/Roles/index');
-	    $this->Acl->allow($group, 'controllers/Users/index');
-	    $this->Acl->allow($group, 'controllers/Users/changePassword');
-	    $this->Acl->allow($group, 'controllers/Users/checkUsername');
-	    $this->Acl->allow($group, 'controllers/Users/myProfile');
-	    $this->Acl->allow($group, 'controllers/ProfilePictures/index');
-	
-	    //allow users to only add and edit on posts and widgets
-	    $group->id = 3;
-	    $this->Acl->deny($group, 'controllers');
-	    $this->Acl->allow($group, 'controllers/Dashboards/index');
-	    $this->Acl->allow($group, 'controllers/Roles/index');
-	    $this->Acl->allow($group, 'controllers/Roles/view');
-	    $this->Acl->allow($group, 'controllers/Users/index');
-	    $this->Acl->allow($group, 'controllers/Users/changePassword');
-	    $this->Acl->allow($group, 'controllers/Users/checkUsername');
-	    $this->Acl->allow($group, 'controllers/Users/myProfile');
-	    $this->Acl->allow($group, 'controllers/ProfilePictures/index');
-	    //we add an exit to avoid an ugly "missing views" error message
-	    echo "all done";
-	    exit;
-	}
 
 }

@@ -1,4 +1,4 @@
-<?php echo Inflector::pluralize('dashboard')?>
+<?php //echo "<pre>"; print_r($user);?>
 <div class="users view">
 <h2><?php  echo __('My Profile'); ?></h2>
 	<dl>
@@ -13,7 +13,7 @@
 					}
 					
 				}else{		
-					echo $this->Html->image('/files/profile-image/thumb/medium/'.$user['User']['pic']); 
+					echo $this->Html->image('/files/profile-image/thumb/medium/'.$user['ProfilePicture']['profile_picture']); 
 				}
 			?>
 			&nbsp;
@@ -70,8 +70,8 @@
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
 		<li><?php echo $this->Html->link(__('Update Profile'), array('action' => 'edit', $user['User']['id'])); ?> </li>
-		<li><span href="<?php echo $this->Html->url(array('action'=>'changePassword'))?>" class="button open-in-popup-div" >Change Password</span></li>
-		<li><span href="<?php echo $this->Html->url(array('action'=>'changeProfilePicture'))?>" class="button open-in-popup-div" width='85%' height='55%'>Change Profile Picture</span></li>
+		<li><span href="<?php echo $this->Html->url(array('action'=>'changePassword'))?>" width='85%' height='75%' class="button open-in-popup-div" >Change Password</span></li>
+		<li><span href="<?php echo $this->Html->url(array('action'=>'changeProfilePicture'))?>" class="button open-in-popup-div" width='65%' height='65%'>Change Profile Picture</span></li>
 	</ul>
 </div>
 

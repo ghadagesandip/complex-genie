@@ -1,0 +1,31 @@
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+.coin-slider a img {width:1000px; height:417px;}
+
+#games{width:1000px !important; height:417px !important;}
+
+.cs-buttons {float:none; position: relative; background: url(../images/slider-menu.png) 10px 10px no-repeat #fff;  left:0 !important; height:51px; margin:0 !important; padding:10px 0 10px 10px}
+.cs-buttons a.cs-active { background: url(../images/slider-menu.png) 15px 10px no-repeat}
+.cs-buttons a.cs-button-games{height: 51px; width: 236px; float: left; color: #B8C4CF; text-indent: -1000px; position:relative;}
+.cs-buttons a.cs-button-games#cs-button-games-1{background-position:0px 0px; z-index:999; margin:0 0 0 0}
+.cs-buttons a.cs-button-games#cs-button-games-1:hover, .cs-buttons a.cs-button-games#cs-button-games-1.cs-active {background-position:0px -161px}
+.cs-buttons a.cs-button-games#cs-button-games-2{background-position:-242px -0px; z-index:888; margin:0 0 0 -25px; width:263px}
+.cs-buttons a.cs-button-games#cs-button-games-2:hover, .cs-buttons a.cs-button-games#cs-button-games-2.cs-active {background-position:-216px -103px;}
+.cs-buttons a.cs-button-games#cs-button-games-3{background-position:-477px 0px; z-index:777; margin:0 0 0 -25px; width:258px}
+.cs-buttons a.cs-button-games#cs-button-games-3:hover, .cs-buttons a.cs-button-games#cs-button-games-3.cs-active {background-position:-450px -154px;}
+.cs-buttons a.cs-button-games#cs-button-games-4{background-position:-707px 0px; z-index:666; margin:0 0 0 -28px; width:260px}
+.cs-buttons a.cs-button-games#cs-button-games-4:hover, .cs-buttons a.cs-button-games#cs-button-games-4.cs-active {background-position:-678px -206px;}
+
+.cs-buttons a.cs-button-games#cs-button-games-1:hover span, .cs-buttons a.cs-button-games#cs-button-games-2:hover span, .cs-buttons a.cs-button-games#cs-button-games-3:hover span, .cs-buttons a.cs-button-games#cs-button-games-4:hover span, .cs-buttons a.cs-button-games#cs-button-games-1.cs-active span, .cs-buttons a.cs-button-games#cs-button-games-2.cs-active span, .cs-buttons a.cs-button-games#cs-button-games-3.cs-active span, .cs-buttons a.cs-button-games#cs-button-games-4.cs-active span {background:url(../images/slider-arr.png) 0 0 no-repeat; width:15px; height:11px; display:block; position:absolute; top:-21px; left:42%; margin-left:-7px;}
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+
+.cs-title { width: 545px; padding: 10px; background-color: #000000; color: #FFFFFF; }
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
