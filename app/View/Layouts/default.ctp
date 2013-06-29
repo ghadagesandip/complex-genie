@@ -29,10 +29,8 @@
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
-
-		
-		echo $this->Html->script(array('jquery-1.10.1.min','jquery-ui-1.10.0.custom.min','supportjs','jquery.slimscroll.min'));
-		echo $this->Html->css(array('cake.generic','jquery-ui-1.10.0.custom.min'));
+		echo $this->Html->script(array('jquery-1.10.1.min','jquery-ui-1.10.0.custom.min','jquery.slimscroll.min','custom-popup','supportjs'));
+		echo $this->Html->css(array('cake.generic','jquery-ui-1.10.0.custom.min','custom-popup'));
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -45,12 +43,11 @@
 		</div>
 		<div id="content">
 
-			<?php echo $this->Session->flash('auth'); ?>
+			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
 			<div id="popup-div">
-				<?php echo $this->element('popup_div');?>
-				<?php echo $this->element('ajax_validate');?>
+			<?php echo $this->element('ajax_validate');?>
 			</div>
 		</div>
 		<div id="footer">

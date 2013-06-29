@@ -5,7 +5,7 @@ $(function(){
   	 
   	 $(':input').blur(function(){
   	 	
-	    	var url = '<?php echo $this->Html->url(array('controller'=>'apps',"action"=>"ajaxValidate"));?>';	
+	    	var url = '<?php echo $this->Html->url(array("action"=>"ajaxValidate"));?>';	
 	    	var field_id = $(this).attr('id');
 			var input_type = $(this).attr('type');	    	    	
 			if(input_type=='password'){

@@ -18,6 +18,7 @@
   	 	}
   	 });
   	 
-  	
+  	//open link in popup div
+  	$(".popup").centerPopup();
   	 
  });

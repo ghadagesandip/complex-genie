@@ -16,7 +16,9 @@
 <div class="actions">
 	<ul>
 		<li> <?php //echo $this->Html->link('Register','/register', array('class'=>'button')); ?> </li>
-		<li> <?php echo $this->Html->tag('span','Forgot Password?',array('class'=>'button open-in-popup-div','href'=>$this->Html->url(array('action'=>'forgotPassword')))); ?></li>
+		<li> <?php //echo $this->Html->tag('span','Forgot Password?',array('class'=>'button open-in-popup-div','href'=>$this->Html->url(array('action'=>'forgotPassword')))); ?></li>
+		<li> <?php echo $this->Html->link('Forgot Password?',array('action'=>'forgotPassword'), array('class'=>'button popup')); ?> </li>
 	</ul>
 
 </div>
+

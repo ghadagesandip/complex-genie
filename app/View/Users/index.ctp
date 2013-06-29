@@ -4,7 +4,7 @@
 	
 	<?php echo $this->Form->create('User', array('action' => 'index', 'inputDefaults' => array('div' => false, 'error' => array('wrap' => 'span', 'class' => 'my-error-class')))); ?>
 	
-		<?php echo $this->element('bulk'); ?>
+		<?php echo $this->element('bulk', array('options' => array('delete'=>__('Delete'),'active'=>__('Active'),'in-active'=>__('In-active')))); ?>
 
 		<table cellpadding="0" cellspacing="0">
 
@@ -41,7 +41,7 @@
 					<td><?php echo h($user['User']['username']); ?>&nbsp;</td>
 					<td><?php echo h($user['User']['email_address']); ?>&nbsp;</td>
 					<td class="actions">
-						<span href="<?php echo $this->Html->url(array('action'=>'changePasswordAdmin',$user['User']['id']))?>" width='85%' height='65%' class="button open-in-popup-div" >Change Password</span>
+						<?php echo $this->Html->link(__('Change password'), array('action'=>'changePasswordAdmin',$user['User']['id']),array('class'=>'popup'))?>
 						<?php echo $this->Html->link(__('View'), array('action' => 'view', $user['User']['id'])); ?>
 						<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $user['User']['id'])); ?>
 						<?php if(AuthComponent::user('id')!=$user['User']['id']){ echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $user['User']['id']), null, __('Are you sure you want to delete # %s?', $user['User']['id']));}else{"";} ?>
