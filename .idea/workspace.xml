@@ -4,8 +4,6 @@
     <list default="true" id="61ce592f-8842-447e-9d49-57a9b66373e0" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/Controller/Component/empty" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/Locale/jpn/LC_MESSAGES/default.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Plugin/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Vendor/empty" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Dashboards/index.ctp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Elements/ajax_password_check.ctp" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Elements/ajax_validate.ctp" afterPath="" />
@@ -103,31 +101,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/8055ade69aefb95135cc2f9b9.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/8a1a92dc7c65f83ffb3c74843.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/ff57d3f3fe6f35f96d993c6db.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/.htaccess" afterPath="$PROJECT_DIR$/app/webroot/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/AppController.php" afterPath="$PROJECT_DIR$/app/Controller/AppController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/AppModel.php" afterPath="$PROJECT_DIR$/app/Model/AppModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/DashboardsController.php" afterPath="$PROJECT_DIR$/app/Controller/DashboardsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Component/FileUploadComponent.php" afterPath="$PROJECT_DIR$/app/Controller/Component/FileUploadComponent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/ProfilePicturesController.php" afterPath="$PROJECT_DIR$/app/Controller/ProfilePicturesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Role.php" afterPath="$PROJECT_DIR$/app/Model/Role.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/RolesController.php" afterPath="$PROJECT_DIR$/app/Controller/RolesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/User.php" afterPath="$PROJECT_DIR$/app/Model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/UsersController.php" afterPath="$PROJECT_DIR$/app/Controller/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/bootstrap.php" afterPath="$PROJECT_DIR$/app/Config/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/cake.generic.css" afterPath="$PROJECT_DIR$/app/webroot/css/cake.generic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/core.php" afterPath="$PROJECT_DIR$/app/Config/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Locale/mar/LC_MESSAGES/default.po" afterPath="$PROJECT_DIR$/app/Locale/mar/LC_MESSAGES/default.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/logs/error.log" afterPath="$PROJECT_DIR$/app/tmp/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Console/Templates/skel/tmp/cache/persistent/myapp_cake_core_cake_console_" afterPath="$PROJECT_DIR$/lib/Cake/Console/Templates/skel/tmp/cache/persistent/myapp_cake_core_cake_console_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_dev_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_dev_en-us" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp" afterPath="$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp" afterPath="$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_default_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_default_en-us" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_list" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_profile_pictures" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_profile_pictures" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_users" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_users" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/Schema/schema.php" afterPath="$PROJECT_DIR$/app/Config/Schema/schema.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/js/supportjs.js" afterPath="$PROJECT_DIR$/app/webroot/js/supportjs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="complex-genie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -171,37 +154,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="supportjs.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/js/supportjs.js">
+      <file leaf-file-name="my_profile.ctp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="33" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-16.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cake.generic.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/webroot/css/cake.generic.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="771" column="45" selection-start="17602" selection-end="17602" vertical-scroll-proportion="0.94382024">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilePicturesController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/ProfilePicturesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="48" selection-start="2862" selection-end="2862" vertical-scroll-proportion="-1.875">
+            <state line="73" column="8" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.64705884">
               <folding />
             </state>
           </provider>
@@ -231,16 +187,16 @@
         <option value="$PROJECT_DIR$/app/Model/AppModel.php" />
         <option value="$PROJECT_DIR$/app/Model/User.php" />
         <option value="$PROJECT_DIR$/app/Controller/UsersController.php" />
-        <option value="$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp" />
         <option value="$PROJECT_DIR$/app/View/Themed/Example/Users/change_password.ctp" />
         <option value="$PROJECT_DIR$/app/Plugin/Media/View/Attachments/index.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/ProfilePicturesController.php" />
         <option value="$PROJECT_DIR$/app/Plugin/Media/Controller/AttachmentsController.php" />
         <option value="$PROJECT_DIR$/app/Vendor/qqUploadedFileXhr.php" />
         <option value="$PROJECT_DIR$/app/webroot/js/supportjs.js" />
-        <option value="$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp" />
         <option value="$PROJECT_DIR$/app/webroot/css/style.css" />
         <option value="$PROJECT_DIR$/app/webroot/css/cake.generic.css" />
+        <option value="$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp" />
       </list>
     </option>
   </component>
@@ -307,46 +263,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complex-genie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complex-genie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complex-genie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="complex-genie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -477,7 +393,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1368" height="721" extended-state="7" />
+    <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -572,24 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="86" selection-start="2033" selection-end="2053" vertical-scroll-proportion="0.7019608">
-          <folding>
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Plugin/Media/Controller/MediaAppController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -653,20 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/js/supportjs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="33" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ProfilePicturesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="48" selection-start="2862" selection-end="2862" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="462" column="0" selection-start="33665" selection-end="33665" vertical-scroll-proportion="0.30898875">
@@ -674,16 +558,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Controller/ProfilePicturesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-16.875">
+        <state line="101" column="48" selection-start="2862" selection-end="2862" vertical-scroll-proportion="0.61764705">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/cake.generic.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="771" column="45" selection-start="17602" selection-end="17602" vertical-scroll-proportion="0.94382024">
+        <state line="771" column="45" selection-start="17602" selection-end="17602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="921" selection-end="921" vertical-scroll-proportion="0.5882353">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/supportjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="663" selection-end="663" vertical-scroll-proportion="0.71910113">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="8" selection-start="1975" selection-end="1975" vertical-scroll-proportion="0.64705884">
           <folding />
         </state>
       </provider>

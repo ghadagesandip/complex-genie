@@ -71,7 +71,7 @@
 	<ul>
 		<li><?php echo $this->Html->link(__('Update Profile'), array('action' => 'edit', $currentuser['User']['id'])); ?> </li>
 		<li><a href="<?php echo $this->Html->url(array('action'=>'changePassword'))?>" class="button popup" >Change Password</a></li>
-		<li><a href="<?php echo $this->Html->url(array('action'=>'changeProfilePicture'))?>" class="button popup" width='65%' height='65%'>Change Profile Picture</a></li>
+		
 	</ul>
 </div>
 
