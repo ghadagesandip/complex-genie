@@ -113,3 +113,4 @@ Configure::write('FROM_EMAIL_ADDRESS','sandip.ghadge@wwindia.com');
 Configure::write('FROM_EMAIL_TEXT','Complex Genie');
 
 CakePlugin::load('AclExtras');
+CakePlugin::load('Media', array('bootstrap' => false, 'routes' => false));

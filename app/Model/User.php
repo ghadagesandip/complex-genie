@@ -170,21 +170,18 @@ class User extends AppModel {
 			'conditions' => '',
 			'fields' => array('id','role'),
 			'order' => ''
-		)
+		),
+        'ProfilePicture'
 	);
 	
-	public $hasMany = array(
-		'ProfilePicture'=>array(
-			'dependent'=>true
-		)
-	); 
+
 	
 	
 	public function confirmPassword() {
            if($this->data[$this->name]['confirm_password'] !== $this->data[$this->name]['password']) {
                 return FALSE;
             } else {
-                return true;;
+                return true;
             }
     }
     

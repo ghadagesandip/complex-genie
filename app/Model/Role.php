@@ -7,9 +7,17 @@ App::uses('AppModel', 'Model');
  */
 class Role extends AppModel {
 	
-	public $actsAs = array('Acl' => array('type' => 'requester'));
+ public $actsAs = array(
+     'Acl' => array('type' => 'requester'),
 
-    public $displayField = 'role';
+ );
+
+
+
+ public $displayField = 'role';
+
+
+
 /**
  * Validation rules
  *
@@ -19,12 +27,21 @@ class Role extends AppModel {
 		'role' => array(
 			'notempty' => array(
 				'rule' => array('notempty'),
-				//'message' => 'Your custom message here',
+				'message' => 'Your custom message here',
 				//'allowEmpty' => false,
 				//'required' => false,
 				//'last' => false, // Stop validation after this rule
 				//'on' => 'create', // Limit validation to 'create' or 'update' operations
 			),
+			'reg-expression'=>array(
+		            'rule' => '/^[^ ]{1,}$/i',
+		            'message' => 'white space are not allowed',
+		        ),
+		        'isUnique'=>array(
+		            'rule'=>array('isUnique'),
+		            'message'=>"role is already taken"
+
+		        ),
 		),
 	);
 
@@ -41,7 +58,7 @@ class Role extends AppModel {
 			'foreignKey' => 'role_id',
 			'dependent' => true,
 			'conditions' => array('User.is_active'=>true),
-			'fields' => '',
+            'fields' => '',
 			'order' => '',
 			'limit' => '',
 			'offset' => '',
@@ -55,4 +72,8 @@ class Role extends AppModel {
 	public function parentNode() {
         return null;
     }
+
+	  
+    
+	
 }

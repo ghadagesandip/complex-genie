@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61ce592f-8842-447e-9d49-57a9b66373e0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Controller/Component/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Locale/jpn/LC_MESSAGES/default.po" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Plugin/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Vendor/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Dashboards/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Elements/ajax_password_check.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Elements/ajax_validate.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Elements/bulk.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Elements/bulk_delete.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Elements/header.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Elements/popup_div.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Errors/error400.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Errors/error500.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/Emails/html/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/Emails/text/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/ajax.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/complex-genie.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/error.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/flash.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/js/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/login.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/login_new.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/rss/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Layouts/xml/default.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Pages/home.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/ProfilePictures/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/ProfilePictures/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/ProfilePictures/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/ProfilePictures/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Roles/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Roles/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Roles/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Roles/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Scaffolds/empty" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/add.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/change_password.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/change_password_admin.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/change_profile_picture.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/edit.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/forgot_password.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/login.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/my_profile.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/register.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/reset_password.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/security_check.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/View/Users/view.ctp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_acos" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_aros" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_aros_acos" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_mar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_default_mar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/0ba9b71f9402d2ffde082486e.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/175956babd9e583bd76a912ae.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/1c7fd08ceaae0d3d15d745bc8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/3f4db1e704e8713a26c05b1ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/524e7c9dc301109cf19b246d4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/54609681e49d9b1dda41b7826.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/5db4c734eb99f772f085cc64e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/65750605e1b5155bf102a6c6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/78fe800eb97b55e6a2b5cebec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/8055ade69aefb95135cc2f9b9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/8a1a92dc7c65f83ffb3c74843.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/ff57d3f3fe6f35f96d993c6db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/0ba9b71f9402d2ffde082486e.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/175956babd9e583bd76a912ae.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/1c7fd08ceaae0d3d15d745bc8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/3f4db1e704e8713a26c05b1ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/524e7c9dc301109cf19b246d4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/54609681e49d9b1dda41b7826.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/5db4c734eb99f772f085cc64e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/65750605e1b5155bf102a6c6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/78fe800eb97b55e6a2b5cebec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/8055ade69aefb95135cc2f9b9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/8a1a92dc7c65f83ffb3c74843.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/large/ff57d3f3fe6f35f96d993c6db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/0ba9b71f9402d2ffde082486e.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/175956babd9e583bd76a912ae.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/1c7fd08ceaae0d3d15d745bc8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/3f4db1e704e8713a26c05b1ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/524e7c9dc301109cf19b246d4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/54609681e49d9b1dda41b7826.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/5db4c734eb99f772f085cc64e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/65750605e1b5155bf102a6c6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/78fe800eb97b55e6a2b5cebec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/8055ade69aefb95135cc2f9b9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/8a1a92dc7c65f83ffb3c74843.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/medium/ff57d3f3fe6f35f96d993c6db.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/0ba9b71f9402d2ffde082486e.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/175956babd9e583bd76a912ae.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/1c7fd08ceaae0d3d15d745bc8.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/3f4db1e704e8713a26c05b1ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/524e7c9dc301109cf19b246d4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/54609681e49d9b1dda41b7826.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/5db4c734eb99f772f085cc64e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/65750605e1b5155bf102a6c6c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/78fe800eb97b55e6a2b5cebec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/8055ade69aefb95135cc2f9b9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/8a1a92dc7c65f83ffb3c74843.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/webroot/files/profile_image/thumb/small/ff57d3f3fe6f35f96d993c6db.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/.htaccess" afterPath="$PROJECT_DIR$/app/webroot/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/AppController.php" afterPath="$PROJECT_DIR$/app/Controller/AppController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/AppModel.php" afterPath="$PROJECT_DIR$/app/Model/AppModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/DashboardsController.php" afterPath="$PROJECT_DIR$/app/Controller/DashboardsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/Component/FileUploadComponent.php" afterPath="$PROJECT_DIR$/app/Controller/Component/FileUploadComponent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/ProfilePicturesController.php" afterPath="$PROJECT_DIR$/app/Controller/ProfilePicturesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Role.php" afterPath="$PROJECT_DIR$/app/Model/Role.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/RolesController.php" afterPath="$PROJECT_DIR$/app/Controller/RolesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/User.php" afterPath="$PROJECT_DIR$/app/Model/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/UsersController.php" afterPath="$PROJECT_DIR$/app/Controller/UsersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/bootstrap.php" afterPath="$PROJECT_DIR$/app/Config/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/cake.generic.css" afterPath="$PROJECT_DIR$/app/webroot/css/cake.generic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/core.php" afterPath="$PROJECT_DIR$/app/Config/core.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Locale/mar/LC_MESSAGES/default.po" afterPath="$PROJECT_DIR$/app/Locale/mar/LC_MESSAGES/default.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/logs/error.log" afterPath="$PROJECT_DIR$/app/tmp/logs/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Console/Templates/skel/tmp/cache/persistent/myapp_cake_core_cake_console_" afterPath="$PROJECT_DIR$/lib/Cake/Console/Templates/skel/tmp/cache/persistent/myapp_cake_core_cake_console_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_dev_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_dev_en-us" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_en-us" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_default_en-us" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_default_en-us" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_list" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_users" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_complex-genie_users" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/Schema/schema.php" afterPath="$PROJECT_DIR$/app/Config/Schema/schema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/js/supportjs.js" afterPath="$PROJECT_DIR$/app/webroot/js/supportjs.js" />
+    </list>
+    <ignored path="complex-genie.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388215951739" ignored="false" />
+    <file path="/AppController.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388216113181" ignored="false" />
+    <file path="/DashboardsController.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1384172513818" ignored="false" />
+    <file path="/index.ctp" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388230807586" ignored="false" />
+    <file path="$USER_HOME$/Documents/Avdhoot-Myfarah/dev/app/View/Themed/Myfarah/Weddingdress/wedding_dress.ctp" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1384175195920" ignored="false" />
+    <file path="/wedding_dress.ctp" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1384175092506" ignored="false" />
+    <file path="$USER_HOME$/Documents/Avdhoot-Myfarah/dev/app/webroot/css/support_css.css" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1384173854562" ignored="false" />
+    <file path="/support_css.css" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1384173111366" ignored="false" />
+    <file path="/cake.generic.css" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1384174212309" ignored="false" />
+    <file path="$USER_HOME$/Documents/Avdhoot-Myfarah/dev/app/View/Themed/Myfarah/WeddingWebsites/index.ctp" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1384175594055" ignored="false" />
+    <file path="/default.ctp" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1387025771619" ignored="false" />
+    <file path="/supportjs.js" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388231020216" ignored="false" />
+    <file path="/ProfilePicturesController.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388224150297" ignored="false" />
+    <file path="/Subcategory.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1384325784398" ignored="false" />
+    <file path="/UsersController.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388218629249" ignored="false" />
+    <file path="/User.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1387023947434" ignored="false" />
+    <file path="/SubcategoriesController.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1387026123066" ignored="false" />
+    <file path="/forgot_password.ctp" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388216345458" ignored="false" />
+    <file path="/my_profile.ctp" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388219252123" ignored="false" />
+    <file path="/AttachmentsController.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388227332245" ignored="false" />
+    <file path="/qqUploadedFileXhr.php" changelist="61ce592f-8842-447e-9d49-57a9b66373e0" time="1388228709473" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="complex-genie" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="supportjs.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/webroot/js/supportjs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="33" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-16.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cake.generic.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/webroot/css/cake.generic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="771" column="45" selection-start="17602" selection-end="17602" vertical-scroll-proportion="0.94382024">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfilePicturesController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/ProfilePicturesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="48" selection-start="2862" selection-end="2862" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/View/Themed/Example/Users/login.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Themed/Example/Users/forgot_password.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Themed/Example/Layouts/login.ctp" />
+        <option value="$PROJECT_DIR$/app/Model/AppModel.php" />
+        <option value="$PROJECT_DIR$/app/Model/User.php" />
+        <option value="$PROJECT_DIR$/app/Controller/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Themed/Example/Users/change_password.ctp" />
+        <option value="$PROJECT_DIR$/app/Plugin/Media/View/Attachments/index.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/ProfilePicturesController.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/Media/Controller/AttachmentsController.php" />
+        <option value="$PROJECT_DIR$/app/Vendor/qqUploadedFileXhr.php" />
+        <option value="$PROJECT_DIR$/app/webroot/js/supportjs.js" />
+        <option value="$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp" />
+        <option value="$PROJECT_DIR$/app/webroot/css/style.css" />
+        <option value="$PROJECT_DIR$/app/webroot/css/cake.generic.css" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="1368" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Themed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="complex-genie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Avdhoot-Myfarah" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="07781990-4110-421a-9c90-2ca90b8346d8">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="3f4a866b-d8f1-4980-aaa0-0f3844f5628f">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="c1ab6c62-6cc0-4fc1-a46d-2969173f85bf">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="c59f8f6f-c4b2-470e-b15b-383219ba2b5b">
+        <serverdata />
+      </server>
+      <server id="f6441ff4-6c48-4beb-b658-fd2b0e8cf17b">
+        <serverdata />
+      </server>
+      <server id="fbfd9960-11bc-422c-b24b-cd1b6fa6f555">
+        <serverdata />
+      </server>
+      <server id="fd537f6e-1cd9-4bdf-802d-77ef6d86cda8">
+        <serverdata />
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Plugin/Media/View" />
+      <recent name="$PROJECT_DIR$/app/webroot/css" />
+      <recent name="$PROJECT_DIR$/app/webroot/js" />
+      <recent name="$PROJECT_DIR$/app/Vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/View" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61ce592f-8842-447e-9d49-57a9b66373e0" name="Default" comment="" />
+      <created>1382773826125</created>
+      <updated>1382773826125</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="24" width="1368" height="721" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/custom-popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="34" selection-start="1277" selection-end="1277" vertical-scroll-proportion="1.0674157">
+          <folding>
+            <marker date="1372499217242" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1372499217242" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1372499217242" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/Users/my_profile.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="86" selection-start="2033" selection-end="2053" vertical-scroll-proportion="0.7019608">
+          <folding>
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1388219520865" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Media/Controller/MediaAppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Media/Model/Attachment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Media/View/Attachments/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="738" selection-end="738" vertical-scroll-proportion="0.56772906">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="28" selection-start="5619" selection-end="5619" vertical-scroll-proportion="-2.5294118">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7058823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Media/View/Attachments/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="27" selection-start="112" selection-end="112" vertical-scroll-proportion="0.08964144">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/Component/FileUploadComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="36" selection-start="4716" selection-end="4716" vertical-scroll-proportion="0.6947791">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/Media/Controller/AttachmentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="59" selection-start="5036" selection-end="5036" vertical-scroll-proportion="1.2647059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Vendor/qqUploadedFileXhr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="41" selection-start="1375" selection-end="1375" vertical-scroll-proportion="0.028680688">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/supportjs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="33" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/ProfilePicturesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="48" selection-start="2862" selection-end="2862" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="462" column="0" selection-start="33665" selection-end="33665" vertical-scroll-proportion="0.30898875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Themed/Example/ProfilePictures/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1267" selection-end="1267" vertical-scroll-proportion="-16.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/cake.generic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="771" column="45" selection-start="17602" selection-end="17602" vertical-scroll-proportion="0.94382024">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

@@ -8,13 +8,7 @@ App::uses('AppController', 'Controller');
  */
 class UsersController extends AppController {
 	public $L_profile_image = 'profile_image';
-	public $components = array(
-		  'FileUpload'=>array(
-		  	  'uploadDir'=>'profile_image',
-		  	  'fileModel'=>'User',
-		  	  'field'=>'pic'
-		   )
-	);
+
 	
 /**
  * beforeFilter, its is controller filter method gets executed before any action is executed 
@@ -71,6 +65,7 @@ class UsersController extends AppController {
 	
 /**
  * login method
+ * handles login attempts from both facebook SDK and local
  * @access public
  * @author Sandip Ghadge
  * @return void
@@ -78,6 +73,7 @@ class UsersController extends AppController {
  */
 	public function login() {
 		$this->layout='login';
+        // If it is a post request we can assume this is a local login request
 	    if ($this->request->is('post')) {
 	        if ($this->Auth->login()) {
 	            $this->redirect($this->Auth->redirect());
@@ -85,6 +81,46 @@ class UsersController extends AppController {
 	            $this->Session->setFlash(__('Invalid username or password, try again'));
 	        }
 	    }
+
+        // When facebook login is used, facebook always returns $_GET['code'].
+        elseif($this->request->query('code')){
+
+            // User login successful
+            $fb_user = $this->Facebook->getUser();          # Returns facebook user_id
+            if ($fb_user){
+                $fb_user = $this->Facebook->api('/me');     # Returns user information
+
+                // We will varify if a local user exists first
+                $local_user = $this->User->find('first', array(
+                    'conditions' => array('username' => $fb_user['email'])
+                ));
+
+                // If exists, we will log them in
+                if ($local_user){
+                    $this->Auth->login($local_user['User']);            # Manual Login
+                    $this->redirect($this->Auth->redirectUrl());
+                }
+
+                // Otherwise we ll add a new user (Registration)
+                else {
+                    $data['User'] = array(
+                        'username'      => $fb_user['email'],                               # Normally Unique
+                        'password'      => AuthComponent::password(uniqid(md5(mt_rand()))), # Set random password
+                        'role'          => 'author'
+                    );
+
+                    // You should change this part to include data validation
+                    $this->User->save($data, array('validate' => false));
+
+                    // After registration we will redirect them back here so they will be logged in
+                    $this->redirect(Router::url('/users/login?code=true', true));
+                }
+            }
+
+            else{
+                // User login failed..
+            }
+        }
 	}
 	
 	
@@ -135,11 +171,13 @@ class UsersController extends AppController {
  * @return void
  */
 	public function myProfile() {
-		$options = array(
-			'conditions' => array('User.' . $this->User->primaryKey => AuthComponent::user('id')),
-			
-		);
-		$this->set('user', $this->User->find('first', $options));
+
+		$currentuser =$this->User->find('first', array(
+                    'conditions'=>array('User.id'=>AuthComponent::user('id')),
+                    'contain'=>array('Role','ProfilePicture')
+                   ));
+        //echo "<pre>"; print_r($user);exit;
+        $this->set(compact('currentuser'));
 	}
 	
 	
@@ -167,7 +205,7 @@ class UsersController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->User->create();
-			if ($this->User->save($this->request->data)) {
+			if ($this->User->save($this->request->data,array('updateCounterCache'=>true))) {
 				$this->Session->setFlash(__('The user has been saved'));
 				$this->redirect(array('action' => 'index'));
 			}else{
@@ -310,11 +348,16 @@ class UsersController extends AppController {
 	}
 	
 	public function forgotPassword(){
+        $this->autoRender = false;
 		$this->layout= 'ajax';
 		$result = array();
 		if($this->request->is('post')) {
-			$C_username = $this->request->data['User']['username'];
-			$user = $this->User->findByUsername($C_username);
+			$C_username = trim($this->request->data['User']['username']);
+			$user = $this->User->find('first',array(
+                                              'conditions'=>array('username'=>$C_username),
+                                             )
+            );
+            //echo "<pre>"; print_r($user);exit;
 			if(count($user)==0){
 				$result['fail'] = 'no user account found with this email address';
 			}else{
@@ -324,9 +367,9 @@ class UsersController extends AppController {
 				$this->_sendPasswordRecoveryEmail($user,$temporary_password);
 				$result['success'] = 'password recovery link send to your registered email address';
 			}
-			echo json_encode($result);exit;
+
 		}
-		
+        echo json_encode($result);exit;
 		
 	}
 	
@@ -434,6 +477,24 @@ class UsersController extends AppController {
 	    );
 		$this->set('userPictures', $this->paginate('ProfilePicture'));
 		
+	}
+
+
+	public function addCategories(){
+	   $this->loadModel('Category');
+           $data = array(
+			    'Category' => array('category_name' => 'My first article','user_id'=>1),
+			    'Subcategory' => array(
+				array('subcategory_name' => 'Comment 1', 'user_id' => 1),
+				array('subcategory_name' => 'Comment 2', 'user_id' => 12),
+				array('subcategory_name' => 'Comment 3', 'user_id' => 40),
+			    ),
+			);
+	   if($this->Category->saveAll($data)){
+		echo "saved"; exit;		
+	   }else{
+		echo "not saved"; exit;		
+	   }				
 	}
 	
 	

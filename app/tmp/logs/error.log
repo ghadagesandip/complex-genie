@@ -8838,3 +8838,3075 @@ Request URL: /complex-genie/css/images/ui-bg_glass_65_ffffff_1x400.png
 Stack Trace:
 #0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-07-01 17:21:51 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:46:29 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/posts
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 16:46:33 Error: [MissingControllerException] Controller class CommentsController could not be found.
+Exception Attributes: array (
+  'class' => 'CommentsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/comments
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:15:54 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Users/index.ctp',
+)
+Request URL: /complex-genie/users
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/complex-genie/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-16 11:16:51 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Users/index.ctp',
+)
+Request URL: /complex-genie/users
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/complex-genie/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-16 11:16:53 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Users/index.ctp',
+)
+Request URL: /complex-genie/users
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/complex-genie/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-16 11:18:05 Error: Fatal Error (1): Class 'AppHelper' not found in [/var/www/complex-genie/lib/Cake/View/Helper/HtmlHelper.php, line 32]
+2013-09-16 11:18:05 Error: [FatalErrorException] Class 'AppHelper' not found
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', '/var/www/comple...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', '/var/www/comple...', 32, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', '/var/www/comple...', 32, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 11:18:21 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Themed/Example/Roles/add.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Themed/Example/Roles/add.ctp',
+)
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/complex-genie/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RolesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-16 11:18:29 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Themed/Example/Roles/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Themed/Example/Roles/index.ctp',
+)
+Request URL: /complex-genie/roles
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/complex-genie/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RolesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-09-16 11:20:17 Error: Fatal Error (1): Class 'AppHelper' not found in [/var/www/complex-genie/lib/Cake/View/Helper/HtmlHelper.php, line 32]
+2013-09-16 11:20:17 Error: [FatalErrorException] Class 'AppHelper' not found
+Request URL: /complex-genie/users
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', '/var/www/comple...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', '/var/www/comple...', 32, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', '/var/www/comple...', 32, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 11:20:18 Error: Fatal Error (1): Class 'AppHelper' not found in [/var/www/complex-genie/lib/Cake/View/Helper/HtmlHelper.php, line 32]
+2013-09-16 11:20:18 Error: [FatalErrorException] Class 'AppHelper' not found
+Request URL: /complex-genie/users
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', '/var/www/comple...', 32)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', '/var/www/comple...', 32, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', '/var/www/comple...', 32, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-16 11:28:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:28:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:28:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:28:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:28:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:28:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:39:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:39:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:39:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:39:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:39:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:39:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:43:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:43:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:43:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:43:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:43:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-16 11:43:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:06:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:06:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:06:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:06:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:06:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:06:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ef8c08_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:27:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:27:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:27:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:27:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:27:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:27:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-17 13:34:26 Error: Fatal Error (1): Call to undefined function echo__() in [/var/www/complex-genie/app/View/Themed/Example/Users/add.ctp, line 81]
+2013-09-17 13:34:26 Error: [FatalErrorException] Call to undefined function echo__()
+Request URL: /complex-genie/users/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/comple...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/comple...', 81, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/comple...', 81, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-17 13:35:11 Error: Fatal Error (1): Call to undefined function echo__() in [/var/www/complex-genie/app/View/Themed/Example/Users/add.ctp, line 81]
+2013-09-17 13:35:11 Error: [FatalErrorException] Call to undefined function echo__()
+Request URL: /complex-genie/users/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/comple...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/comple...', 81, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/comple...', 81, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-22 12:08:37 Error: [MissingControllerException] Controller class VendorsController could not be found.
+Exception Attributes: array (
+  'class' => 'VendorsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/vendors/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-22 12:10:51 Error: [MissingControllerException] Controller class DressesController could not be found.
+Exception Attributes: array (
+  'class' => 'DressesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/dresses
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-22 12:11:31 Error: [MissingControllerException] Controller class DressesController could not be found.
+Exception Attributes: array (
+  'class' => 'DressesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/Dresses
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-25 12:23:02 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:23:02 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/ajaxValidate
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:23:03 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:23:03 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/ajaxValidate
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:23:05 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:23:05 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/ajaxValidate
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:23:07 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:23:07 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/ajaxValidate
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:23:07 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:23:07 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:23:07 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:23:07 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/ajaxValidate
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:23:54 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:23:54 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:30:06 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:30:06 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:33:27 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:33:27 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:33:43 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:33:43 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:33:56 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:33:56 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:34:29 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:34:29 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/ajaxValidate
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:34:30 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:34:30 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/ajaxValidate
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:34:30 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:34:30 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:34:30 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:34:30 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/ajaxValidate
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:43:52 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:43:52 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:46:52 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:46:52 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-25 12:47:14 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/var/www/complex-genie/app/Model/Role.php, line 30]
+2013-10-25 12:47:14 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 30, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-26 07:54:25 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Roles/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Roles/index.ctp',
+)
+Request URL: /complex-genie/roles
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/complex-genie/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RolesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-26 08:50:45 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='/var/www/complex-genie/lib:.:/usr/share/php:/usr/share/pear') in [/var/www/complex-genie/app/Vendor/facebook.php, line 18]
+2013-10-26 08:50:45 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'base_facebook.php' (include_path='/var/www/complex-genie/lib:.:/usr/share/php:/usr/share/pear')
+Request URL: /complex-genie/
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(64, 'require_once() ...', '/var/www/comple...', 18)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/var/www/comple...', 18, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/var/www/comple...', 18, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-26 08:53:10 Error: Fatal Error (4): syntax error, unexpected end of file in [/var/www/complex-genie/app/View/Themed/Example/Layouts/login.ctp, line 74]
+2013-10-26 08:53:10 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /complex-genie/
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/comple...', 74)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/comple...', 74, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/comple...', 74, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-26 08:53:46 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/user/logout
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-26 08:57:18 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Role
+    [Aro0.foreign_key] => 0
+)
+"
+Request URL: /complex-genie/users
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Model/Permission.php(90): AclNode->node(Array)
+#1 /var/www/complex-genie/lib/Cake/Controller/Component/Acl/DbAcl.php(74): Permission->check(Array, 'controllers/Use...', '*')
+#2 /var/www/complex-genie/lib/Cake/Controller/Component/AclComponent.php(110): DbAcl->check(Array, 'controllers/Use...', '*')
+#3 /var/www/complex-genie/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Use...')
+#4 /var/www/complex-genie/lib/Cake/Controller/Component/AuthComponent.php(412): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 /var/www/complex-genie/lib/Cake/Controller/Component/AuthComponent.php(336): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(UsersController))
+#7 /var/www/complex-genie/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /var/www/complex-genie/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#10 /var/www/complex-genie/lib/Cake/Controller/Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#12 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-10-26 08:58:20 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Role
+    [Aro0.foreign_key] => 0
+)
+"
+Request URL: /complex-genie/dashboard
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Model/Permission.php(90): AclNode->node(Array)
+#1 /var/www/complex-genie/lib/Cake/Controller/Component/Acl/DbAcl.php(74): Permission->check(Array, 'controllers/Das...', '*')
+#2 /var/www/complex-genie/lib/Cake/Controller/Component/AclComponent.php(110): DbAcl->check(Array, 'controllers/Das...', '*')
+#3 /var/www/complex-genie/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Das...')
+#4 /var/www/complex-genie/lib/Cake/Controller/Component/AuthComponent.php(412): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 /var/www/complex-genie/lib/Cake/Controller/Component/AuthComponent.php(336): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(DashboardsController))
+#7 /var/www/complex-genie/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /var/www/complex-genie/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#10 /var/www/complex-genie/lib/Cake/Controller/Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#12 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardsController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-10-26 08:58:50 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Role
+    [Aro0.foreign_key] => 0
+)
+"
+Request URL: /complex-genie/dashboard
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Model/Permission.php(90): AclNode->node(Array)
+#1 /var/www/complex-genie/lib/Cake/Controller/Component/Acl/DbAcl.php(74): Permission->check(Array, 'controllers/Das...', '*')
+#2 /var/www/complex-genie/lib/Cake/Controller/Component/AclComponent.php(110): DbAcl->check(Array, 'controllers/Das...', '*')
+#3 /var/www/complex-genie/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Das...')
+#4 /var/www/complex-genie/lib/Cake/Controller/Component/AuthComponent.php(412): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 /var/www/complex-genie/lib/Cake/Controller/Component/AuthComponent.php(336): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(DashboardsController))
+#7 /var/www/complex-genie/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /var/www/complex-genie/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#10 /var/www/complex-genie/lib/Cake/Controller/Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#12 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardsController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-10-26 08:58:52 Error: [CakeException] AclNode::node() - Couldn't find Aro node identified by "Array
+(
+    [Aro0.model] => Role
+    [Aro0.foreign_key] => 0
+)
+"
+Request URL: /complex-genie/dashboard
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Model/Permission.php(90): AclNode->node(Array)
+#1 /var/www/complex-genie/lib/Cake/Controller/Component/Acl/DbAcl.php(74): Permission->check(Array, 'controllers/Das...', '*')
+#2 /var/www/complex-genie/lib/Cake/Controller/Component/AclComponent.php(110): DbAcl->check(Array, 'controllers/Das...', '*')
+#3 /var/www/complex-genie/lib/Cake/Controller/Component/Auth/ActionsAuthorize.php(40): AclComponent->check(Array, 'controllers/Das...')
+#4 /var/www/complex-genie/lib/Cake/Controller/Component/AuthComponent.php(412): ActionsAuthorize->authorize(Array, Object(CakeRequest))
+#5 /var/www/complex-genie/lib/Cake/Controller/Component/AuthComponent.php(336): AuthComponent->isAuthorized(Array)
+#6 [internal function]: AuthComponent->startup(Object(DashboardsController))
+#7 /var/www/complex-genie/lib/Cake/Utility/ObjectCollection.php(132): call_user_func_array(Array, Array)
+#8 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#9 /var/www/complex-genie/lib/Cake/Event/CakeEventManager.php(248): call_user_func(Array, Object(CakeEvent))
+#10 /var/www/complex-genie/lib/Cake/Controller/Controller.php(671): CakeEventManager->dispatch(Object(CakeEvent))
+#11 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(184): Controller->startupProcess()
+#12 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(DashboardsController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-10-29 08:51:34 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Administrator' for key 'role'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `co...', Array)
+#2 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `co...')
+#3 /var/www/complex-genie/lib/Cake/Model/Model.php(1744): DboSource->create(Object(Role), Array, Array)
+#4 /var/www/complex-genie/app/Controller/RolesController.php(48): Model->save(Array)
+#5 [internal function]: RolesController->add()
+#6 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(RolesController), Array)
+#7 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RolesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-10-29 08:51:44 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'administrator' for key 'role'
+Request URL: /complex-genie/roles/add
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('INSERT INTO `co...', Array)
+#2 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `co...')
+#3 /var/www/complex-genie/lib/Cake/Model/Model.php(1744): DboSource->create(Object(Role), Array, Array)
+#4 /var/www/complex-genie/app/Controller/RolesController.php(48): Model->save(Array)
+#5 [internal function]: RolesController->add()
+#6 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(RolesController), Array)
+#7 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(RolesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-11-06 07:56:01 Error: [MissingControllerException] Controller class PostsController could not be found.
+Exception Attributes: array (
+  'class' => 'PostsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/posts
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-06 07:56:06 Error: [MissingControllerException] Controller class DressesController could not be found.
+Exception Attributes: array (
+  'class' => 'DressesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/dresses
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-06 07:56:10 Error: [MissingControllerException] Controller class VendorsController could not be found.
+Exception Attributes: array (
+  'class' => 'VendorsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/vendors/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-11 15:31:54 Error: [MissingActionException] Action ProfilePicturesController::ajaxAddPic() could not be found.
+Exception Attributes: array (
+  'controller' => 'ProfilePicturesController',
+  'action' => 'ajaxAddPic',
+)
+Request URL: /complex-genie//ProfilePictures/ajaxAddPic?previouse_file=undefined&qqfile=wdss.jpg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(ProfilePicturesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-11-13 07:13:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:13:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:13:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:13:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:13:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:13:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:18:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:18:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_gloss-wave_35_f6a828_500x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-icons_ffffff_256x240.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_f6f6f6_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-13 07:22:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_glass_100_fdf5ce_1x400.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:00:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:00:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/css/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:02:32 Error: Fatal Error (1): Class 'qqFileUploader' not found in [/var/www/complex-genie/app/Controller/ProfilePicturesController.php, line 102]
+2013-12-14 12:02:32 Error: [FatalErrorException] Class 'qqFileUploader' not found
+Request URL: /complex-genie//ProfilePictures/ajaxAddPic?previouse_file=undefined&qqfile=weeding_3.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'qqFileUp...', '/var/www/comple...', 102)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'qqFileUp...', '/var/www/comple...', 102, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'qqFileUp...', '/var/www/comple...', 102, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-14 12:03:21 Error: Fatal Error (1): Call to a member function findById() on a non-object in [/var/www/complex-genie/app/Controller/ProfilePicturesController.php, line 109]
+2013-12-14 12:03:21 Error: [FatalErrorException] Call to a member function findById() on a non-object
+Request URL: /complex-genie//ProfilePictures/ajaxAddPic?previouse_file=undefined&qqfile=flowers1.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/comple...', 109)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/comple...', 109, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/comple...', 109, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-14 12:08:15 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/complex-genie/app/Controller/ProfilePicturesController.php, line 112]
+2013-12-14 12:08:15 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /complex-genie//ProfilePictures/ajaxAddPic?previouse_file=undefined&qqfile=flowers1s.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/comple...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/comple...', 112, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/comple...', 112, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-14 12:08:28 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/complex-genie/app/Controller/ProfilePicturesController.php, line 112]
+2013-12-14 12:08:28 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /complex-genie//ProfilePictures/ajaxAddPic?previouse_file=undefined&qqfile=flowers1sa.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/comple...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/comple...', 112, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/comple...', 112, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-14 12:10:13 Error: Fatal Error (1): Call to a member function save() on a non-object in [/var/www/complex-genie/app/Controller/ProfilePicturesController.php, line 112]
+2013-12-14 12:10:13 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /complex-genie//ProfilePictures/ajaxAddPic?previouse_file=undefined&qqfile=flowers1.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/comple...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/comple...', 112, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/comple...', 112, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-14 12:10:54 Error: Fatal Error (1): Call to a member function createThumb() on a non-object in [/var/www/complex-genie/app/Controller/ProfilePicturesController.php, line 113]
+2013-12-14 12:10:54 Error: [FatalErrorException] Call to a member function createThumb() on a non-object
+Request URL: /complex-genie//ProfilePictures/ajaxAddPic?previouse_file=undefined&qqfile=flowers1sa.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/comple...', 113)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/comple...', 113, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/comple...', 113, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-14 12:11:47 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/small/64f329adbd2a90259a5176cf513e19fd.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:11:48 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/small/64f329adbd2a90259a5176cf513e19fd.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:11:48 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/small/64f329adbd2a90259a5176cf513e19fd.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:11:52 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/small/64f329adbd2a90259a5176cf513e19fd.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:11:52 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/small/64f329adbd2a90259a5176cf513e19fd.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:11:53 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/small/64f329adbd2a90259a5176cf513e19fd.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:26:34 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:27:56 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+Request URL: /complex-genie/my-profile
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /var/www/complex-genie/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /var/www/complex-genie/lib/Cake/Model/Model.php(2696): DboSource->read(Object(User), Array)
+#5 /var/www/complex-genie/app/Controller/UsersController.php(175): Model->find('first', Array)
+#6 [internal function]: UsersController->myProfile()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-14 12:28:07 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:29:20 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:29:30 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:30:53 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-14 12:31:05 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-16 13:20:01 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/admin
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-16 14:32:51 Error: [MissingControllerException] Controller class RegistrationController could not be found.
+Exception Attributes: array (
+  'class' => 'RegistrationController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/registration
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-16 14:42:20 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp',
+)
+Request URL: /complex-genie/users/forgotPassword
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName('password_recove...')
+#1 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1581): View->render('password_recove...', 'default')
+#2 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1448): CakeEmail->_renderTemplates('?')
+#3 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1075): CakeEmail->_render(Array)
+#4 /var/www/complex-genie/app/Controller/UsersController.php(393): CakeEmail->send()
+#5 /var/www/complex-genie/app/Controller/UsersController.php(361): UsersController->_sendPasswordRecoveryEmail(Array, '0cd22cabe150')
+#6 [internal function]: UsersController->forgotPassword()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-19 07:44:49 Error: [MissingControllerException] Controller class AttachmentsController could not be found.
+Exception Attributes: array (
+  'class' => 'AttachmentsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/admin/attachments
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-19 07:45:04 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => 'Media',
+)
+Request URL: /complex-genie/media/users/login
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-19 07:45:14 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => 'Media',
+)
+Request URL: /complex-genie/media/users/login
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 07:30:38 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 07:38:23 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp',
+)
+Request URL: /complex-genie/users/forgotPassword
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName('password_recove...')
+#1 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1581): View->render('password_recove...', 'default')
+#2 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1448): CakeEmail->_renderTemplates('?')
+#3 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1075): CakeEmail->_render(Array)
+#4 /var/www/complex-genie/app/Controller/UsersController.php(393): CakeEmail->send()
+#5 /var/www/complex-genie/app/Controller/UsersController.php(361): UsersController->_sendPasswordRecoveryEmail(Array, '990c6d1e3e4f')
+#6 [internal function]: UsersController->forgotPassword()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-28 07:45:47 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp',
+)
+Request URL: /complex-genie/users/forgotPassword
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName('password_recove...')
+#1 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1581): View->render('password_recove...', 'default')
+#2 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1448): CakeEmail->_renderTemplates('?')
+#3 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1075): CakeEmail->_render(Array)
+#4 /var/www/complex-genie/app/Controller/UsersController.php(393): CakeEmail->send()
+#5 /var/www/complex-genie/app/Controller/UsersController.php(361): UsersController->_sendPasswordRecoveryEmail(Array, 'ea782b8eefed')
+#6 [internal function]: UsersController->forgotPassword()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-28 07:46:03 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp',
+)
+Request URL: /complex-genie/users/forgotPassword
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName('password_recove...')
+#1 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1581): View->render('password_recove...', 'default')
+#2 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1448): CakeEmail->_renderTemplates('?')
+#3 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1075): CakeEmail->_render(Array)
+#4 /var/www/complex-genie/app/Controller/UsersController.php(393): CakeEmail->send()
+#5 /var/www/complex-genie/app/Controller/UsersController.php(361): UsersController->_sendPasswordRecoveryEmail(Array, 'cd7233021c86')
+#6 [internal function]: UsersController->forgotPassword()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-28 07:48:55 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp',
+)
+Request URL: /complex-genie/users/forgotPassword
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName('password_recove...')
+#1 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1581): View->render('password_recove...', 'default')
+#2 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1448): CakeEmail->_renderTemplates('?')
+#3 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1075): CakeEmail->_render(Array)
+#4 /var/www/complex-genie/app/Controller/UsersController.php(393): CakeEmail->send()
+#5 /var/www/complex-genie/app/Controller/UsersController.php(361): UsersController->_sendPasswordRecoveryEmail(Array, '161e5d261379')
+#6 [internal function]: UsersController->forgotPassword()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-28 07:52:27 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp',
+)
+Request URL: /complex-genie/users/forgotPassword
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName('password_recove...')
+#1 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1581): View->render('password_recove...', 'default')
+#2 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1448): CakeEmail->_renderTemplates('?')
+#3 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1075): CakeEmail->_render(Array)
+#4 /var/www/complex-genie/app/Controller/UsersController.php(397): CakeEmail->send()
+#5 /var/www/complex-genie/app/Controller/UsersController.php(365): UsersController->_sendPasswordRecoveryEmail(Array, '7c2a65510239')
+#6 [internal function]: UsersController->forgotPassword()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-28 07:52:36 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp',
+)
+Request URL: /complex-genie/users/forgotPassword
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName('password_recove...')
+#1 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1581): View->render('password_recove...', 'default')
+#2 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1448): CakeEmail->_renderTemplates('?')
+#3 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1075): CakeEmail->_render(Array)
+#4 /var/www/complex-genie/app/Controller/UsersController.php(397): CakeEmail->send()
+#5 /var/www/complex-genie/app/Controller/UsersController.php(365): UsersController->_sendPasswordRecoveryEmail(Array, '14a5c9424819')
+#6 [internal function]: UsersController->forgotPassword()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-28 07:53:46 Error: [MissingViewException] View file "/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/View/Emails/html/password_recovery_email.ctp',
+)
+Request URL: /complex-genie/users/forgotPassword
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName('password_recove...')
+#1 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1581): View->render('password_recove...', 'default')
+#2 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1448): CakeEmail->_renderTemplates('?')
+#3 /var/www/complex-genie/lib/Cake/Network/Email/CakeEmail.php(1075): CakeEmail->_render(Array)
+#4 /var/www/complex-genie/app/Controller/UsersController.php(398): CakeEmail->send()
+#5 /var/www/complex-genie/app/Controller/UsersController.php(366): UsersController->_sendPasswordRecoveryEmail(Array, '667102be27ad')
+#6 [internal function]: UsersController->forgotPassword()
+#7 /var/www/complex-genie/lib/Cake/Controller/Controller.php(486): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-12-28 08:08:29 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:08:30 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:09:49 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:09:54 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:10:02 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:10:04 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:10:36 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:11:44 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:11:46 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:11:49 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:12:05 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:13:06 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:13:09 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:14:15 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:14:17 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:15:37 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:15:45 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:17:30 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:20:02 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:20:21 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:20:21 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:20:27 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:20:50 Error: [MissingControllerException] Controller class Profile-imageController could not be found.
+Exception Attributes: array (
+  'class' => 'Profile-imageController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile-image/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:20:51 Error: [MissingControllerException] Controller class Profile-imageController could not be found.
+Exception Attributes: array (
+  'class' => 'Profile-imageController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile-image/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:20:51 Error: [MissingControllerException] Controller class Profile-imageController could not be found.
+Exception Attributes: array (
+  'class' => 'Profile-imageController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile-image/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:21:27 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:21:28 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:21:28 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:21:32 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/9106c2bfd970860c3305b80e80e24085.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:15 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:16 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:16 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:19 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:23 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:35 Error: [MissingControllerException] Controller class ProfilePicsController could not be found.
+Exception Attributes: array (
+  'class' => 'ProfilePicsController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie//profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:22:59 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:23:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:23:00 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:23:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:23:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:23:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:23:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:23:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:24:08 Error: [MissingControllerException] Controller class Complex-genieController could not be found.
+Exception Attributes: array (
+  'class' => 'Complex-genieController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie//complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:24:12 Error: [MissingControllerException] Controller class Complex-genieController could not be found.
+Exception Attributes: array (
+  'class' => 'Complex-genieController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie//complex-genie/img/profile_pics/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:24:21 Error: [MissingControllerException] Controller class Complex-genieController could not be found.
+Exception Attributes: array (
+  'class' => 'Complex-genieController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie//complex-genie/img/profile_pics/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:08 Error: [MissingControllerException] Controller class Complex-genieController could not be found.
+Exception Attributes: array (
+  'class' => 'Complex-genieController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie//complex-genie/img/profile_pics/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:09 Error: [MissingControllerException] Controller class Complex-genieController could not be found.
+Exception Attributes: array (
+  'class' => 'Complex-genieController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie//complex-genie/img/profile_pics/thumb/medium/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:10 Error: [MissingControllerException] Controller class Complex-genieController could not be found.
+Exception Attributes: array (
+  'class' => 'Complex-genieController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie//complex-genie/img/profile_pics/thumb/medium/c16404758b3b149f076753a5f.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:10 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:12 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:33 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:34 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:36 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile-image/thumb/medium/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 08:26:46 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profileimage/thumb/medium/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:29:40 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:29:42 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:29:43 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:30:10 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:31:12 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:31:13 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:31:13 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:32:52 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:32:54 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:32:55 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:33:17 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:33:17 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:33:18 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:34:21 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:34:23 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:34:23 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:35:01 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:35:04 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:35:04 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:37:38 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:37:43 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:37:44 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:38:41 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:38:45 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:38:45 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:39:18 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:43:29 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:44:23 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:44:45 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:44:47 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:45:05 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:45:12 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:45:39 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:46:09 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:46:34 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:46:34 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:46:39 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:46:39 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:46:43 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:46:43 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:46:44 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:47:01 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:47:04 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:47:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:47:34 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:47:34 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:48:27 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:48:30 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:48:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:49:27 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:49:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:49:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:49:59 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:50:00 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:50:00 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:50:06 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 09:50:58 Error: [MissingViewException] View file "/var/www/complex-genie/app/Plugin/Media/View/Attachments/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/complex-genie/app/Plugin/Media/View/Attachments/index.ctp',
+)
+Request URL: /complex-genie/media/attachments
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/complex-genie/lib/Cake/Controller/Controller.php(948): View->render(NULL, NULL)
+#2 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /var/www/complex-genie/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(AttachmentsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-28 09:59:47 Error: [MissingControllerException] Controller class MediaController could not be found.
+Exception Attributes: array (
+  'class' => 'MediaController',
+  'plugin' => 'Media',
+)
+Request URL: /complex-genie/media/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:00:08 Error: [MissingControllerException] Controller class MediaController could not be found.
+Exception Attributes: array (
+  'class' => 'MediaController',
+  'plugin' => 'Media',
+)
+Request URL: /complex-genie/media/
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:00:23 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:00:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:21:41 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:23:36 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:24:39 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:25:12 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:34:14 Error: Fatal Error (1): Class 'qqFileUploader' not found in [/var/www/complex-genie/app/Plugin/Media/Controller/AttachmentsController.php, line 208]
+2013-12-28 10:34:14 Error: [FatalErrorException] Class 'qqFileUploader' not found
+Request URL: /complex-genie//media/attachments/ajaxAddAttachment?qqfile=reception.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'qqFileUp...', '/var/www/comple...', 208)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'qqFileUp...', '/var/www/comple...', 208, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'qqFileUp...', '/var/www/comple...', 208, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-28 10:34:14 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:35:22 Error: Fatal Error (1): Class 'qqFileUploader' not found in [/var/www/complex-genie/app/Plugin/Media/Controller/AttachmentsController.php, line 208]
+2013-12-28 10:35:22 Error: [FatalErrorException] Class 'qqFileUploader' not found
+Request URL: /complex-genie//media/attachments/ajaxAddAttachment?qqfile=reception.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'qqFileUp...', '/var/www/comple...', 208)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'qqFileUp...', '/var/www/comple...', 208, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'qqFileUp...', '/var/www/comple...', 208, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-28 10:35:22 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:36:43 Error: Fatal Error (1): Class 'qqFileUploader' not found in [/var/www/complex-genie/app/Plugin/Media/Controller/AttachmentsController.php, line 210]
+2013-12-28 10:36:43 Error: [FatalErrorException] Class 'qqFileUploader' not found
+Request URL: /complex-genie//media/attachments/ajaxAddAttachment?qqfile=decorations.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/lib/Cake/Error/ErrorHandler.php(184): ErrorHandler::handleFatalError(1, 'Class 'qqFileUp...', '/var/www/comple...', 210)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'qqFileUp...', '/var/www/comple...', 210, Array)
+#2 /var/www/complex-genie/lib/Cake/Core/App.php(927): call_user_func('ErrorHandler::h...', 1, 'Class 'qqFileUp...', '/var/www/comple...', 210, Array)
+#3 /var/www/complex-genie/lib/Cake/Core/App.php(900): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-28 10:36:43 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:37:56 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:39:46 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:40:46 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:42:24 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:43:08 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:43:41 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:44:09 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:45:48 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:47:22 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:47:23 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:47:23 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:47:27 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:48:29 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:48:33 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:48:33 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:48:35 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:49:02 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:49:42 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:49:42 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:49:43 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:49:51 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:50:10 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:50:10 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:50:13 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:50:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:50:32 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:50:36 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:52:47 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:52:47 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:52:48 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:53:06 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:53:07 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:53:11 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:53:12 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:53:59 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:53:59 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:54:00 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:54:08 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:54:09 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:54:12 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 10:54:19 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:02:54 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:03:26 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/undefined
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:04:30 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:04:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:04:31 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:18:53 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:22:56 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:23:26 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:23:32 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:23:32 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:23:45 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:23:46 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:23:46 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:24:09 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-28 11:24:11 Error: [MissingControllerException] Controller class FilesController could not be found.
+Exception Attributes: array (
+  'class' => 'FilesController',
+  'plugin' => NULL,
+)
+Request URL: /complex-genie/files/profile_image/thumb/large/2e462b53d3130e4a71ee3ef62a8a57a5.jpeg
+Stack Trace:
+#0 /var/www/complex-genie/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

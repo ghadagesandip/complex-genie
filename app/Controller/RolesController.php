@@ -18,6 +18,7 @@ class RolesController extends AppController {
  * @return void
  */
 	public function index() {
+
 		$this->Role->recursive = 0;
 		$this->set('roles', $this->paginate());
 	}
@@ -44,6 +45,7 @@ class RolesController extends AppController {
  */
 	public function add() {
 		if ($this->request->is('post')) {
+
 			$this->Role->create();
 			if ($this->Role->save($this->request->data)) {
 				$this->Session->setFlash(__('The role has been saved'));

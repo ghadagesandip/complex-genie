@@ -37,7 +37,7 @@ class AppModel extends Model {
 	
 	public function beforeValidate($options = array()){
 		//for updated id field will be set
-		if(isset($_SESSION['Auth'])){
+		if(isset($_SESSION['Auth']['User']['id'])){
 			if(isset($this->data[$this->name]['id'])){
 			  $this->data[$this->name]['updated_by'] = $_SESSION['Auth']['User']['id'];	
 			}else{
@@ -48,7 +48,7 @@ class AppModel extends Model {
 		return true;
 	}
 	
-	function transformCheckboxDataForBulkDelete($data) {
+	public function transformCheckboxDataForBulkDelete($data) {
 		
 		$hasData = false;
 		$conditions = array();
@@ -95,6 +95,9 @@ class AppModel extends Model {
 		return true;	
 	}
 	
+	function invalidate($field, $value = true) {
+	   return parent::invalidate($field, __($value, true));
+        }
 	
 	
 }

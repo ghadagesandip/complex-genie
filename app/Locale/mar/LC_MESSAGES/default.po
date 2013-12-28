@@ -163,7 +163,7 @@ msgstr ""
 #: /View/Users/edit.ctp:20
 #: /View/Users/register.ctp:18
 msgid "Submit"
-msgstr ""
+msgstr "सबमिट करा"
 
 #: /View/ProfilePictures/add.ctp:12
 #: /View/ProfilePictures/edit.ctp:14
@@ -199,7 +199,7 @@ msgstr ""
 #: /View/Users/edit.ctp:27
 #: /View/Users/view.ctp:73
 msgid "List Users"
-msgstr ""
+msgstr "यादी वापरकर्ते"
 
 #: /View/ProfilePictures/add.ctp:17
 #: /View/ProfilePictures/edit.ctp:20
@@ -379,7 +379,7 @@ msgstr "संपादन करणे"
 
 #: /View/Roles/add.ctp:4
 msgid "Add Role"
-msgstr ""
+msgstr "भूमिका जोडा"
 
 #: /View/Roles/add.ctp:15
 #: /View/Roles/edit.ctp:17
@@ -703,4 +703,13 @@ msgstr ""
 #: /webroot/test.php:95
 msgid "Debug setting does not allow access to this url."
 msgstr ""
+
+#: /View/Users/add.ctp:81
+msgid "this field is required"
+msgstr "हे फील्ड आवश्यक आहे"
+
+#: /Model/Role.php:30
+msgid "white space are not allowed"
+msgstr "पांढरा जागा अनुमत नाहीत"
+
 

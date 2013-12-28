@@ -1,5 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
+App::import('Vendor','qqUploadedFileXhr');
+
 /**
  * ProfilePictures Controller
  *
@@ -7,13 +9,7 @@ App::uses('AppController', 'Controller');
  */
 class ProfilePicturesController extends AppController {
 	public $L_file_name = false;
-	public $components = array(
-		  'FileUpload'=>array(
-		  	  'uploadDir'=>'profile_image',
-		  	  'fileModel'=>'ProfilePicture',
-		  	  'field'=>'profile_picture'
-		   )
-	);
+
 	
 /**
  * index method
@@ -22,7 +18,10 @@ class ProfilePicturesController extends AppController {
  */
 	public function index() {
 		$this->ProfilePicture->recursive = 0;
-		$options = array('conditions'=>array('ProfilePicture.user_id' => AuthComponent::user('id')));
+		$options = array(
+            'conditions'=>array('ProfilePicture.user_id' => AuthComponent::user('id')),
+            'order'=>array('ProfilePicture.id'=>'desc')
+        );
 		$this->paginate = $options;
 		$this->set('profilePictures', $this->paginate());
 	}
@@ -92,4 +91,36 @@ class ProfilePicturesController extends AppController {
 		$this->Session->setFlash(__('Profile picture was not deleted'));
 		$this->redirect(array('action' => 'index'));
 	}
+
+
+    public function ajaxAddPic(){
+
+        $file_path = WWW_ROOT.'files'.DS. 'profile_image' . DS;
+        $result = array();
+
+        $this->autoRender = false;
+        $allowedExtensions = array('jpg','png','gif','jpeg','bmp');
+        // max file size in bytes
+        $sizeLimit = 4 * 1024 * 1024;
+
+
+
+        $uploader = new qqFileUploader($allowedExtensions, $sizeLimit);
+        $result = $uploader->handleUpload('files'.DS.'profile_image'.DS);
+
+        if($this->Auth->loggedIn()){
+            $saveData = array(
+                'user_id'=>AuthComponent::user('id'),
+                'profile_picture'=>$result['file_name']
+            );
+            if($this->ProfilePicture->save($saveData)){
+                $this->FileUpload->createThumb($result['file_name'],$file_path,array('small' =>array(25,  30),'medium' =>array(75, 90),'large' =>array(167, 152)));
+                // to pass data through iframe you will need to encode all html tags
+                echo htmlspecialchars(json_encode($result), ENT_NOQUOTES); exit;
+            }
+        }
+        $result = array('status'=>'fail');
+        echo htmlspecialchars(json_encode($result), ENT_NOQUOTES); exit;
+
+    }
 }

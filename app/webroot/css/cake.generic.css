@@ -742,3 +742,31 @@ pre {
 #all_images ul{min-height: 200px;}
 #all_images ul li{float: left; list-style: none outside none; padding: 5px; position:relative;}
 #all_images ul li p{background: none repeat scroll 0 0 red; bottom: -5px; height: 49px; position: absolute; right: 5px; width: 95%;display: none;}
+
+
+#dashboard #dashnoard-menus .dashoard-menu-items{
+    float: left;
+    list-style: none outside none;
+    margin: 0 12px;
+    position: relative;
+    margin: 30px;
+}
+
+.profile_pics{}
+.profile_pics_items{
+    float: left;
+    list-style: none outside none;
+    margin: 12px;
+    position: relative;
+}
+.profile_pics_items img{ border: 1px dotted #B0E0E6; display: inline-block;  height: 152px; width: 167px;}
+.profile_pics_items a{ display: none;
+    position: absolute;
+    right: 6px;
+    top: 131px;
+    z-index: 500;
+    margin: -5px;
+    padding: 3px 10px 5px;
+    background: firebrick;
+}
+.profile_pics_items a.active{display: block;}
